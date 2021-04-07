@@ -1,0 +1,2239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpenDRIVE xmlns="http://www.opendrive.org">
+  <header version="1" revMajor="1" revMinor="4" name="Новый документ" vendor="Неизвестный разработчик" date="2019-12-09T21:40:32" north="5.634975713e+01" south="5.634795988e+01" east="3.731711369e+01" west="3.731075767e+01" designer="RoadMapEditor_Format_v3">
+    <geoReference><![CDATA[+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs]]></geoReference>
+  </header>
+  <road id="47" junction="-1">
+    <routeView>
+      <geometry sOffset="0" length="5.970320416e+02" x="3.731685390e+01" y="5.634854730e+01" z="0.000000000e+00">
+        <pointSet>
+          <point x="3.731685390e+01" y="5.634854730e+01" z="0.000000000e+00" />
+          <point x="3.730566745e+01" y="5.634850656e+01" z="0.000000000e+00" />
+        </pointSet>
+      </geometry>
+    </routeView>
+    <link>
+    </link>
+    <objects />
+    <signals />
+    <lanes>
+      <laneSection singleSide="false">
+        <boundaries>
+          <boundary type="leftBoundary">
+            <geometry>
+              <pointSet>
+                <point x="3.731684679e+01" y="5.634855062e+01" z="0.000000000e+00" />
+                <point x="3.730766872e+01" y="5.634852729e+01" z="0.000000000e+00" />
+              </pointSet>
+            </geometry>
+          </boundary>
+          <boundary type="rightBoundary">
+            <geometry>
+              <pointSet>
+                <point x="3.731684762e+01" y="5.634860931e+01" z="0.000000000e+00" />
+                <point x="3.730766553e+01" y="5.634858741e+01" z="0.000000000e+00" />
+              </pointSet>
+            </geometry>
+          </boundary>
+        </boundaries>
+        <center>
+          <lane id="0" uid="10000102" type="none">
+            <border virtual="TRUE">
+              <geometry sOffset="0" length="5.965175313e+02" x="3.731684679e+01" y="5.634855062e+01" z="0.000000000e+00">
+                <pointSet>
+                  <point x="3.731684679e+01" y="5.634855062e+01" z="0.000000000e+00" />
+                  <point x="3.730566872e+01" y="5.634850729e+01" z="0.000000000e+00" />
+                </pointSet>
+              </geometry>
+              <borderType sOffset="0.000000000e+00" type="solid" color="white" />
+            </border>
+            <link />
+            <speed min="0" max="70" />
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" uid="10000103" type="driving" direction="forward" turnType="noTurn">
+            <centerLine>
+              <geometry sOffset="0" length="5.965775902e+02" x="3.731684732e+01" y="5.634856493e+01" z="0.000000000e+00">
+                <pointSet>
+                  <point x="3.731684732e+01" y="5.634856493e+01" z="0.000000000e+00" />
+                  <point x="3.730566828e+01" y="5.634852149e+01" z="0.000000000e+00" />
+                </pointSet>
+              </geometry>
+            </centerLine>
+            <border virtual="FALSE">
+              <geometry sOffset="0" length="5.966962791e+02" x="3.731684768e+01" y="5.634857838e+01" z="0.000000000e+00">
+                <pointSet>
+                  <point x="3.731684768e+01" y="5.634857838e+01" z="0.000000000e+00" />
+                  <point x="3.730566667e+01" y="5.634853709e+01" z="0.000000000e+00" />
+                </pointSet>
+              </geometry>
+              <borderType sOffset="0.000000000e+00" type="broken" color="white" />
+            </border>
+            <link>
+              <predecessor id="10000104" />
+              <successor id="10000158" />
+              <successor id="10000156" />
+              <neighbor id="10000110" side="right" direction="same" />
+            </link>
+            <speed min="0" max="70" />
+            <sampleAssociates>
+              <sampleAssociate sOffset="0" leftWidth="1.59373" rightWidth="1.49726" />
+              <sampleAssociate sOffset="0.5" leftWidth="1.59279" rightWidth="1.49787" />
+              <sampleAssociate sOffset="1" leftWidth="1.59276" rightWidth="1.49848" />
+              <sampleAssociate sOffset="1.5" leftWidth="1.59273" rightWidth="1.49909" />
+              <sampleAssociate sOffset="2" leftWidth="1.5927" rightWidth="1.49971" />
+              <sampleAssociate sOffset="2.5" leftWidth="1.59268" rightWidth="1.50032" />
+              <sampleAssociate sOffset="3" leftWidth="1.59265" rightWidth="1.50093" />
+              <sampleAssociate sOffset="3.5" leftWidth="1.59262" rightWidth="1.50154" />
+              <sampleAssociate sOffset="4" leftWidth="1.59259" rightWidth="1.50216" />
+              <sampleAssociate sOffset="4.5" leftWidth="1.59256" rightWidth="1.50277" />
+              <sampleAssociate sOffset="5" leftWidth="1.59253" rightWidth="1.50338" />
+              <sampleAssociate sOffset="5.5" leftWidth="1.5925" rightWidth="1.504" />
+              <sampleAssociate sOffset="6" leftWidth="1.59247" rightWidth="1.50461" />
+              <sampleAssociate sOffset="6.5" leftWidth="1.59244" rightWidth="1.50522" />
+              <sampleAssociate sOffset="7" leftWidth="1.59241" rightWidth="1.50583" />
+              <sampleAssociate sOffset="7.5" leftWidth="1.59238" rightWidth="1.50645" />
+              <sampleAssociate sOffset="8" leftWidth="1.59235" rightWidth="1.50706" />
+              <sampleAssociate sOffset="8.5" leftWidth="1.59233" rightWidth="1.50767" />
+              <sampleAssociate sOffset="9" leftWidth="1.5923" rightWidth="1.50828" />
+              <sampleAssociate sOffset="9.5" leftWidth="1.59227" rightWidth="1.5089" />
+              <sampleAssociate sOffset="10" leftWidth="1.59224" rightWidth="1.50951" />
+              <sampleAssociate sOffset="10.5" leftWidth="1.59221" rightWidth="1.51012" />
+              <sampleAssociate sOffset="11" leftWidth="1.59218" rightWidth="1.51073" />
+              <sampleAssociate sOffset="11.5" leftWidth="1.59215" rightWidth="1.51135" />
+              <sampleAssociate sOffset="12" leftWidth="1.59212" rightWidth="1.51196" />
+              <sampleAssociate sOffset="12.5" leftWidth="1.59209" rightWidth="1.51257" />
+              <sampleAssociate sOffset="13" leftWidth="1.59206" rightWidth="1.51318" />
+              <sampleAssociate sOffset="13.5" leftWidth="1.59203" rightWidth="1.5138" />
+              <sampleAssociate sOffset="14" leftWidth="1.592" rightWidth="1.51441" />
+              <sampleAssociate sOffset="14.5" leftWidth="1.59198" rightWidth="1.51502" />
+              <sampleAssociate sOffset="15" leftWidth="1.59195" rightWidth="1.51563" />
+              <sampleAssociate sOffset="15.5" leftWidth="1.59192" rightWidth="1.51625" />
+              <sampleAssociate sOffset="16" leftWidth="1.59189" rightWidth="1.51686" />
+              <sampleAssociate sOffset="16.5" leftWidth="1.59186" rightWidth="1.51747" />
+              <sampleAssociate sOffset="17" leftWidth="1.59183" rightWidth="1.51809" />
+              <sampleAssociate sOffset="17.5" leftWidth="1.5918" rightWidth="1.5187" />
+              <sampleAssociate sOffset="18" leftWidth="1.59177" rightWidth="1.51931" />
+              <sampleAssociate sOffset="18.5" leftWidth="1.59174" rightWidth="1.51992" />
+              <sampleAssociate sOffset="19" leftWidth="1.59171" rightWidth="1.52054" />
+              <sampleAssociate sOffset="19.5" leftWidth="1.59168" rightWidth="1.52115" />
+              <sampleAssociate sOffset="20" leftWidth="1.59166" rightWidth="1.52176" />
+              <sampleAssociate sOffset="20.5" leftWidth="1.59163" rightWidth="1.52237" />
+              <sampleAssociate sOffset="21" leftWidth="1.5916" rightWidth="1.52299" />
+              <sampleAssociate sOffset="21.5" leftWidth="1.59157" rightWidth="1.5236" />
+              <sampleAssociate sOffset="22" leftWidth="1.59154" rightWidth="1.52421" />
+              <sampleAssociate sOffset="22.5" leftWidth="1.59151" rightWidth="1.52482" />
+              <sampleAssociate sOffset="23" leftWidth="1.59148" rightWidth="1.52544" />
+              <sampleAssociate sOffset="23.5" leftWidth="1.59145" rightWidth="1.52605" />
+              <sampleAssociate sOffset="24" leftWidth="1.59142" rightWidth="1.52666" />
+              <sampleAssociate sOffset="24.5" leftWidth="1.59139" rightWidth="1.52727" />
+              <sampleAssociate sOffset="25" leftWidth="1.59136" rightWidth="1.52789" />
+              <sampleAssociate sOffset="25.5" leftWidth="1.59133" rightWidth="1.5285" />
+              <sampleAssociate sOffset="26" leftWidth="1.59131" rightWidth="1.52911" />
+              <sampleAssociate sOffset="26.5" leftWidth="1.59128" rightWidth="1.52972" />
+              <sampleAssociate sOffset="27" leftWidth="1.59125" rightWidth="1.53034" />
+              <sampleAssociate sOffset="27.5" leftWidth="1.59122" rightWidth="1.53095" />
+              <sampleAssociate sOffset="28" leftWidth="1.59119" rightWidth="1.53156" />
+              <sampleAssociate sOffset="28.5" leftWidth="1.59116" rightWidth="1.53218" />
+              <sampleAssociate sOffset="29" leftWidth="1.59113" rightWidth="1.53279" />
+              <sampleAssociate sOffset="29.5" leftWidth="1.5911" rightWidth="1.5334" />
+              <sampleAssociate sOffset="30" leftWidth="1.59107" rightWidth="1.53401" />
+              <sampleAssociate sOffset="30.5" leftWidth="1.59104" rightWidth="1.53463" />
+              <sampleAssociate sOffset="31" leftWidth="1.59101" rightWidth="1.53524" />
+              <sampleAssociate sOffset="31.5" leftWidth="1.59099" rightWidth="1.53585" />
+              <sampleAssociate sOffset="32" leftWidth="1.59096" rightWidth="1.53646" />
+              <sampleAssociate sOffset="32.5" leftWidth="1.59093" rightWidth="1.53708" />
+              <sampleAssociate sOffset="33" leftWidth="1.5909" rightWidth="1.53769" />
+              <sampleAssociate sOffset="33.5" leftWidth="1.59087" rightWidth="1.5383" />
+              <sampleAssociate sOffset="34" leftWidth="1.59084" rightWidth="1.53891" />
+              <sampleAssociate sOffset="34.5" leftWidth="1.59081" rightWidth="1.53953" />
+              <sampleAssociate sOffset="35" leftWidth="1.59078" rightWidth="1.54014" />
+              <sampleAssociate sOffset="35.5" leftWidth="1.59075" rightWidth="1.54075" />
+              <sampleAssociate sOffset="36" leftWidth="1.59072" rightWidth="1.54136" />
+              <sampleAssociate sOffset="36.5" leftWidth="1.59069" rightWidth="1.54198" />
+              <sampleAssociate sOffset="37" leftWidth="1.59066" rightWidth="1.54259" />
+              <sampleAssociate sOffset="37.5" leftWidth="1.59064" rightWidth="1.5432" />
+              <sampleAssociate sOffset="38" leftWidth="1.59061" rightWidth="1.54381" />
+              <sampleAssociate sOffset="38.5" leftWidth="1.59058" rightWidth="1.54443" />
+              <sampleAssociate sOffset="39" leftWidth="1.59055" rightWidth="1.54504" />
+              <sampleAssociate sOffset="39.5" leftWidth="1.59052" rightWidth="1.54565" />
+              <sampleAssociate sOffset="40" leftWidth="1.59049" rightWidth="1.54627" />
+              <sampleAssociate sOffset="40.5" leftWidth="1.59046" rightWidth="1.54688" />
+              <sampleAssociate sOffset="41" leftWidth="1.59043" rightWidth="1.54749" />
+              <sampleAssociate sOffset="41.5" leftWidth="1.5904" rightWidth="1.5481" />
+              <sampleAssociate sOffset="42" leftWidth="1.59037" rightWidth="1.54872" />
+              <sampleAssociate sOffset="42.5" leftWidth="1.59034" rightWidth="1.54933" />
+              <sampleAssociate sOffset="43" leftWidth="1.59032" rightWidth="1.54994" />
+              <sampleAssociate sOffset="43.5" leftWidth="1.59029" rightWidth="1.55055" />
+              <sampleAssociate sOffset="44" leftWidth="1.59026" rightWidth="1.55117" />
+              <sampleAssociate sOffset="44.5" leftWidth="1.59023" rightWidth="1.55178" />
+              <sampleAssociate sOffset="45" leftWidth="1.5902" rightWidth="1.55239" />
+              <sampleAssociate sOffset="45.5" leftWidth="1.59017" rightWidth="1.553" />
+              <sampleAssociate sOffset="46" leftWidth="1.59014" rightWidth="1.55362" />
+              <sampleAssociate sOffset="46.5" leftWidth="1.59011" rightWidth="1.55423" />
+              <sampleAssociate sOffset="47" leftWidth="1.59008" rightWidth="1.55484" />
+              <sampleAssociate sOffset="47.5" leftWidth="1.59005" rightWidth="1.55545" />
+              <sampleAssociate sOffset="48" leftWidth="1.59002" rightWidth="1.55607" />
+              <sampleAssociate sOffset="48.5" leftWidth="1.58999" rightWidth="1.55668" />
+              <sampleAssociate sOffset="49" leftWidth="1.58997" rightWidth="1.55729" />
+              <sampleAssociate sOffset="49.5" leftWidth="1.58994" rightWidth="1.5579" />
+              <sampleAssociate sOffset="50" leftWidth="1.58991" rightWidth="1.55852" />
+              <sampleAssociate sOffset="50.5" leftWidth="1.58988" rightWidth="1.55913" />
+              <sampleAssociate sOffset="51" leftWidth="1.58985" rightWidth="1.55974" />
+              <sampleAssociate sOffset="51.5" leftWidth="1.58982" rightWidth="1.56036" />
+              <sampleAssociate sOffset="52" leftWidth="1.58979" rightWidth="1.56097" />
+              <sampleAssociate sOffset="52.5" leftWidth="1.58976" rightWidth="1.56158" />
+              <sampleAssociate sOffset="53" leftWidth="1.58973" rightWidth="1.56219" />
+              <sampleAssociate sOffset="53.5" leftWidth="1.5897" rightWidth="1.56281" />
+              <sampleAssociate sOffset="54" leftWidth="1.58967" rightWidth="1.56342" />
+              <sampleAssociate sOffset="54.5" leftWidth="1.58964" rightWidth="1.56403" />
+              <sampleAssociate sOffset="55" leftWidth="1.58962" rightWidth="1.56464" />
+              <sampleAssociate sOffset="55.5" leftWidth="1.58959" rightWidth="1.56526" />
+              <sampleAssociate sOffset="56" leftWidth="1.58956" rightWidth="1.56587" />
+              <sampleAssociate sOffset="56.5" leftWidth="1.58953" rightWidth="1.56648" />
+              <sampleAssociate sOffset="57" leftWidth="1.5895" rightWidth="1.56709" />
+              <sampleAssociate sOffset="57.5" leftWidth="1.58947" rightWidth="1.56771" />
+              <sampleAssociate sOffset="58" leftWidth="1.58944" rightWidth="1.56832" />
+              <sampleAssociate sOffset="58.5" leftWidth="1.58941" rightWidth="1.56893" />
+              <sampleAssociate sOffset="59" leftWidth="1.58938" rightWidth="1.56954" />
+              <sampleAssociate sOffset="59.5" leftWidth="1.58935" rightWidth="1.57016" />
+              <sampleAssociate sOffset="60" leftWidth="1.58932" rightWidth="1.57077" />
+              <sampleAssociate sOffset="60.5" leftWidth="1.5893" rightWidth="1.57138" />
+              <sampleAssociate sOffset="61" leftWidth="1.58927" rightWidth="1.57199" />
+              <sampleAssociate sOffset="61.5" leftWidth="1.58924" rightWidth="1.57261" />
+              <sampleAssociate sOffset="62" leftWidth="1.58921" rightWidth="1.57322" />
+              <sampleAssociate sOffset="62.5" leftWidth="1.58918" rightWidth="1.57383" />
+              <sampleAssociate sOffset="63" leftWidth="1.58915" rightWidth="1.57445" />
+              <sampleAssociate sOffset="63.5" leftWidth="1.58912" rightWidth="1.57506" />
+              <sampleAssociate sOffset="64" leftWidth="1.58909" rightWidth="1.57567" />
+              <sampleAssociate sOffset="64.5" leftWidth="1.58906" rightWidth="1.57628" />
+              <sampleAssociate sOffset="65" leftWidth="1.58903" rightWidth="1.5769" />
+              <sampleAssociate sOffset="65.5" leftWidth="1.589" rightWidth="1.57751" />
+              <sampleAssociate sOffset="66" leftWidth="1.58897" rightWidth="1.57812" />
+              <sampleAssociate sOffset="66.5" leftWidth="1.58895" rightWidth="1.57873" />
+              <sampleAssociate sOffset="67" leftWidth="1.58892" rightWidth="1.57935" />
+              <sampleAssociate sOffset="67.5" leftWidth="1.58889" rightWidth="1.57996" />
+              <sampleAssociate sOffset="68" leftWidth="1.58886" rightWidth="1.58057" />
+              <sampleAssociate sOffset="68.5" leftWidth="1.58883" rightWidth="1.58118" />
+              <sampleAssociate sOffset="69" leftWidth="1.5888" rightWidth="1.5818" />
+              <sampleAssociate sOffset="69.5" leftWidth="1.58877" rightWidth="1.58241" />
+              <sampleAssociate sOffset="70" leftWidth="1.58874" rightWidth="1.58302" />
+              <sampleAssociate sOffset="70.5" leftWidth="1.58871" rightWidth="1.58363" />
+              <sampleAssociate sOffset="71" leftWidth="1.58868" rightWidth="1.58425" />
+              <sampleAssociate sOffset="71.5" leftWidth="1.58865" rightWidth="1.58486" />
+              <sampleAssociate sOffset="72" leftWidth="1.58863" rightWidth="1.58547" />
+              <sampleAssociate sOffset="72.5" leftWidth="1.5886" rightWidth="1.58608" />
+              <sampleAssociate sOffset="73" leftWidth="1.58857" rightWidth="1.5867" />
+              <sampleAssociate sOffset="73.5" leftWidth="1.58854" rightWidth="1.58731" />
+              <sampleAssociate sOffset="74" leftWidth="1.58851" rightWidth="1.58792" />
+              <sampleAssociate sOffset="74.5" leftWidth="1.58848" rightWidth="1.58854" />
+              <sampleAssociate sOffset="75" leftWidth="1.58845" rightWidth="1.58915" />
+              <sampleAssociate sOffset="75.5" leftWidth="1.58842" rightWidth="1.58976" />
+              <sampleAssociate sOffset="76" leftWidth="1.58839" rightWidth="1.59037" />
+              <sampleAssociate sOffset="76.5" leftWidth="1.58836" rightWidth="1.59099" />
+              <sampleAssociate sOffset="77" leftWidth="1.58833" rightWidth="1.5916" />
+              <sampleAssociate sOffset="77.5" leftWidth="1.5883" rightWidth="1.59221" />
+              <sampleAssociate sOffset="78" leftWidth="1.58828" rightWidth="1.59282" />
+              <sampleAssociate sOffset="78.5" leftWidth="1.58825" rightWidth="1.59344" />
+              <sampleAssociate sOffset="79" leftWidth="1.58822" rightWidth="1.59405" />
+              <sampleAssociate sOffset="79.5" leftWidth="1.58819" rightWidth="1.59466" />
+              <sampleAssociate sOffset="80" leftWidth="1.58816" rightWidth="1.59527" />
+              <sampleAssociate sOffset="80.5" leftWidth="1.58813" rightWidth="1.59589" />
+              <sampleAssociate sOffset="81" leftWidth="1.5881" rightWidth="1.5965" />
+              <sampleAssociate sOffset="81.5" leftWidth="1.58807" rightWidth="1.59711" />
+              <sampleAssociate sOffset="82" leftWidth="1.58804" rightWidth="1.59772" />
+              <sampleAssociate sOffset="82.5" leftWidth="1.58801" rightWidth="1.59834" />
+              <sampleAssociate sOffset="83" leftWidth="1.58798" rightWidth="1.59895" />
+              <sampleAssociate sOffset="83.5" leftWidth="1.58795" rightWidth="1.59956" />
+              <sampleAssociate sOffset="84" leftWidth="1.58793" rightWidth="1.60017" />
+              <sampleAssociate sOffset="84.5" leftWidth="1.5879" rightWidth="1.60079" />
+              <sampleAssociate sOffset="85" leftWidth="1.58787" rightWidth="1.6014" />
+              <sampleAssociate sOffset="85.5" leftWidth="1.58784" rightWidth="1.60201" />
+              <sampleAssociate sOffset="86" leftWidth="1.58781" rightWidth="1.60263" />
+              <sampleAssociate sOffset="86.5" leftWidth="1.58778" rightWidth="1.60324" />
+              <sampleAssociate sOffset="87" leftWidth="1.58775" rightWidth="1.60385" />
+              <sampleAssociate sOffset="87.5" leftWidth="1.58772" rightWidth="1.60446" />
+              <sampleAssociate sOffset="88" leftWidth="1.58769" rightWidth="1.60508" />
+              <sampleAssociate sOffset="88.5" leftWidth="1.58766" rightWidth="1.60569" />
+              <sampleAssociate sOffset="89" leftWidth="1.58763" rightWidth="1.6063" />
+              <sampleAssociate sOffset="89.5" leftWidth="1.58761" rightWidth="1.60691" />
+              <sampleAssociate sOffset="90" leftWidth="1.58758" rightWidth="1.60753" />
+              <sampleAssociate sOffset="90.5" leftWidth="1.58755" rightWidth="1.60814" />
+              <sampleAssociate sOffset="91" leftWidth="1.58752" rightWidth="1.60875" />
+              <sampleAssociate sOffset="91.5" leftWidth="1.58749" rightWidth="1.60936" />
+              <sampleAssociate sOffset="92" leftWidth="1.58746" rightWidth="1.60998" />
+              <sampleAssociate sOffset="92.5" leftWidth="1.58743" rightWidth="1.61059" />
+              <sampleAssociate sOffset="93" leftWidth="1.5874" rightWidth="1.6112" />
+              <sampleAssociate sOffset="93.5" leftWidth="1.58737" rightWidth="1.61181" />
+              <sampleAssociate sOffset="94" leftWidth="1.58734" rightWidth="1.61243" />
+              <sampleAssociate sOffset="94.5" leftWidth="1.58731" rightWidth="1.61304" />
+              <sampleAssociate sOffset="95" leftWidth="1.58728" rightWidth="1.61365" />
+              <sampleAssociate sOffset="95.5" leftWidth="1.58726" rightWidth="1.61426" />
+              <sampleAssociate sOffset="96" leftWidth="1.58723" rightWidth="1.61488" />
+              <sampleAssociate sOffset="96.5" leftWidth="1.5872" rightWidth="1.61549" />
+              <sampleAssociate sOffset="97" leftWidth="1.58717" rightWidth="1.6161" />
+              <sampleAssociate sOffset="97.5" leftWidth="1.58714" rightWidth="1.61672" />
+              <sampleAssociate sOffset="98" leftWidth="1.58711" rightWidth="1.61733" />
+              <sampleAssociate sOffset="98.5" leftWidth="1.58708" rightWidth="1.61794" />
+              <sampleAssociate sOffset="99" leftWidth="1.58705" rightWidth="1.61855" />
+              <sampleAssociate sOffset="99.5" leftWidth="1.58702" rightWidth="1.61917" />
+              <sampleAssociate sOffset="100" leftWidth="1.58699" rightWidth="1.61978" />
+              <sampleAssociate sOffset="100.5" leftWidth="1.58696" rightWidth="1.62039" />
+              <sampleAssociate sOffset="101" leftWidth="1.58694" rightWidth="1.621" />
+              <sampleAssociate sOffset="101.5" leftWidth="1.58691" rightWidth="1.62162" />
+              <sampleAssociate sOffset="102" leftWidth="1.58688" rightWidth="1.62223" />
+              <sampleAssociate sOffset="102.5" leftWidth="1.58685" rightWidth="1.62284" />
+              <sampleAssociate sOffset="103" leftWidth="1.58682" rightWidth="1.62345" />
+              <sampleAssociate sOffset="103.5" leftWidth="1.58679" rightWidth="1.62407" />
+              <sampleAssociate sOffset="104" leftWidth="1.58676" rightWidth="1.62468" />
+              <sampleAssociate sOffset="104.5" leftWidth="1.58673" rightWidth="1.62529" />
+              <sampleAssociate sOffset="105" leftWidth="1.5867" rightWidth="1.6259" />
+              <sampleAssociate sOffset="105.5" leftWidth="1.58667" rightWidth="1.62652" />
+              <sampleAssociate sOffset="106" leftWidth="1.58664" rightWidth="1.62713" />
+              <sampleAssociate sOffset="106.5" leftWidth="1.58661" rightWidth="1.62774" />
+              <sampleAssociate sOffset="107" leftWidth="1.58659" rightWidth="1.62835" />
+              <sampleAssociate sOffset="107.5" leftWidth="1.58656" rightWidth="1.62897" />
+              <sampleAssociate sOffset="108" leftWidth="1.58653" rightWidth="1.62958" />
+              <sampleAssociate sOffset="108.5" leftWidth="1.5865" rightWidth="1.63019" />
+              <sampleAssociate sOffset="109" leftWidth="1.58647" rightWidth="1.63081" />
+              <sampleAssociate sOffset="109.5" leftWidth="1.58644" rightWidth="1.63142" />
+              <sampleAssociate sOffset="110" leftWidth="1.58641" rightWidth="1.63203" />
+              <sampleAssociate sOffset="110.5" leftWidth="1.58638" rightWidth="1.63264" />
+              <sampleAssociate sOffset="111" leftWidth="1.58635" rightWidth="1.63326" />
+              <sampleAssociate sOffset="111.5" leftWidth="1.58632" rightWidth="1.63387" />
+              <sampleAssociate sOffset="112" leftWidth="1.58629" rightWidth="1.63448" />
+              <sampleAssociate sOffset="112.5" leftWidth="1.58626" rightWidth="1.63509" />
+              <sampleAssociate sOffset="113" leftWidth="1.58624" rightWidth="1.63571" />
+              <sampleAssociate sOffset="113.5" leftWidth="1.58621" rightWidth="1.63632" />
+              <sampleAssociate sOffset="114" leftWidth="1.58618" rightWidth="1.63693" />
+              <sampleAssociate sOffset="114.5" leftWidth="1.58615" rightWidth="1.63754" />
+              <sampleAssociate sOffset="115" leftWidth="1.58612" rightWidth="1.63816" />
+              <sampleAssociate sOffset="115.5" leftWidth="1.58609" rightWidth="1.63877" />
+              <sampleAssociate sOffset="116" leftWidth="1.58606" rightWidth="1.63938" />
+              <sampleAssociate sOffset="116.5" leftWidth="1.58603" rightWidth="1.63999" />
+              <sampleAssociate sOffset="117" leftWidth="1.586" rightWidth="1.64061" />
+              <sampleAssociate sOffset="117.5" leftWidth="1.58597" rightWidth="1.64122" />
+              <sampleAssociate sOffset="118" leftWidth="1.58594" rightWidth="1.64183" />
+              <sampleAssociate sOffset="118.5" leftWidth="1.58592" rightWidth="1.64244" />
+              <sampleAssociate sOffset="119" leftWidth="1.58589" rightWidth="1.64306" />
+              <sampleAssociate sOffset="119.5" leftWidth="1.58586" rightWidth="1.64367" />
+              <sampleAssociate sOffset="120" leftWidth="1.58583" rightWidth="1.64428" />
+              <sampleAssociate sOffset="120.5" leftWidth="1.5858" rightWidth="1.6449" />
+              <sampleAssociate sOffset="121" leftWidth="1.58577" rightWidth="1.64551" />
+              <sampleAssociate sOffset="121.5" leftWidth="1.58574" rightWidth="1.64612" />
+              <sampleAssociate sOffset="122" leftWidth="1.58571" rightWidth="1.64673" />
+              <sampleAssociate sOffset="122.5" leftWidth="1.58568" rightWidth="1.64735" />
+              <sampleAssociate sOffset="123" leftWidth="1.58565" rightWidth="1.64796" />
+              <sampleAssociate sOffset="123.5" leftWidth="1.58562" rightWidth="1.64857" />
+              <sampleAssociate sOffset="124" leftWidth="1.58559" rightWidth="1.64918" />
+              <sampleAssociate sOffset="124.5" leftWidth="1.58557" rightWidth="1.6498" />
+              <sampleAssociate sOffset="125" leftWidth="1.58554" rightWidth="1.65041" />
+              <sampleAssociate sOffset="125.5" leftWidth="1.58551" rightWidth="1.65102" />
+              <sampleAssociate sOffset="126" leftWidth="1.58548" rightWidth="1.65163" />
+              <sampleAssociate sOffset="126.5" leftWidth="1.58545" rightWidth="1.65225" />
+              <sampleAssociate sOffset="127" leftWidth="1.58542" rightWidth="1.65286" />
+              <sampleAssociate sOffset="127.5" leftWidth="1.58539" rightWidth="1.65347" />
+              <sampleAssociate sOffset="128" leftWidth="1.58536" rightWidth="1.65408" />
+              <sampleAssociate sOffset="128.5" leftWidth="1.58533" rightWidth="1.6547" />
+              <sampleAssociate sOffset="129" leftWidth="1.5853" rightWidth="1.65531" />
+              <sampleAssociate sOffset="129.5" leftWidth="1.58527" rightWidth="1.65592" />
+              <sampleAssociate sOffset="130" leftWidth="1.58525" rightWidth="1.65653" />
+              <sampleAssociate sOffset="130.5" leftWidth="1.58522" rightWidth="1.65715" />
+              <sampleAssociate sOffset="131" leftWidth="1.58519" rightWidth="1.65776" />
+              <sampleAssociate sOffset="131.5" leftWidth="1.58516" rightWidth="1.65837" />
+              <sampleAssociate sOffset="132" leftWidth="1.58513" rightWidth="1.65899" />
+              <sampleAssociate sOffset="132.5" leftWidth="1.5851" rightWidth="1.6596" />
+              <sampleAssociate sOffset="133" leftWidth="1.58507" rightWidth="1.66021" />
+              <sampleAssociate sOffset="133.5" leftWidth="1.58504" rightWidth="1.66082" />
+              <sampleAssociate sOffset="134" leftWidth="1.58501" rightWidth="1.66144" />
+              <sampleAssociate sOffset="134.5" leftWidth="1.58498" rightWidth="1.66205" />
+              <sampleAssociate sOffset="135" leftWidth="1.58495" rightWidth="1.66266" />
+              <sampleAssociate sOffset="135.5" leftWidth="1.58492" rightWidth="1.66327" />
+              <sampleAssociate sOffset="136" leftWidth="1.5849" rightWidth="1.66389" />
+              <sampleAssociate sOffset="136.5" leftWidth="1.58487" rightWidth="1.6645" />
+              <sampleAssociate sOffset="137" leftWidth="1.58484" rightWidth="1.66511" />
+              <sampleAssociate sOffset="137.5" leftWidth="1.58481" rightWidth="1.66572" />
+              <sampleAssociate sOffset="138" leftWidth="1.58478" rightWidth="1.66634" />
+              <sampleAssociate sOffset="138.5" leftWidth="1.58475" rightWidth="1.66695" />
+              <sampleAssociate sOffset="139" leftWidth="1.58472" rightWidth="1.66756" />
+              <sampleAssociate sOffset="139.5" leftWidth="1.58469" rightWidth="1.66817" />
+              <sampleAssociate sOffset="140" leftWidth="1.58466" rightWidth="1.66879" />
+              <sampleAssociate sOffset="140.5" leftWidth="1.58463" rightWidth="1.6694" />
+              <sampleAssociate sOffset="141" leftWidth="1.5846" rightWidth="1.67001" />
+              <sampleAssociate sOffset="141.5" leftWidth="1.58457" rightWidth="1.67062" />
+              <sampleAssociate sOffset="142" leftWidth="1.58455" rightWidth="1.67124" />
+              <sampleAssociate sOffset="142.5" leftWidth="1.58452" rightWidth="1.67185" />
+              <sampleAssociate sOffset="143" leftWidth="1.58449" rightWidth="1.67246" />
+              <sampleAssociate sOffset="143.5" leftWidth="1.58446" rightWidth="1.67307" />
+              <sampleAssociate sOffset="144" leftWidth="1.58443" rightWidth="1.67369" />
+              <sampleAssociate sOffset="144.5" leftWidth="1.5844" rightWidth="1.6743" />
+              <sampleAssociate sOffset="145" leftWidth="1.58437" rightWidth="1.67491" />
+              <sampleAssociate sOffset="145.5" leftWidth="1.58434" rightWidth="1.67553" />
+              <sampleAssociate sOffset="146" leftWidth="1.58431" rightWidth="1.67614" />
+              <sampleAssociate sOffset="146.5" leftWidth="1.58428" rightWidth="1.67675" />
+              <sampleAssociate sOffset="147" leftWidth="1.58425" rightWidth="1.67736" />
+              <sampleAssociate sOffset="147.5" leftWidth="1.58423" rightWidth="1.67798" />
+              <sampleAssociate sOffset="148" leftWidth="1.5842" rightWidth="1.67859" />
+              <sampleAssociate sOffset="148.5" leftWidth="1.58417" rightWidth="1.6792" />
+              <sampleAssociate sOffset="149" leftWidth="1.58414" rightWidth="1.67981" />
+              <sampleAssociate sOffset="149.5" leftWidth="1.58411" rightWidth="1.68043" />
+              <sampleAssociate sOffset="150" leftWidth="1.58408" rightWidth="1.68104" />
+              <sampleAssociate sOffset="150.5" leftWidth="1.58405" rightWidth="1.68165" />
+              <sampleAssociate sOffset="151" leftWidth="1.58402" rightWidth="1.68226" />
+              <sampleAssociate sOffset="151.5" leftWidth="1.58399" rightWidth="1.68288" />
+              <sampleAssociate sOffset="152" leftWidth="1.58396" rightWidth="1.68349" />
+              <sampleAssociate sOffset="152.5" leftWidth="1.58393" rightWidth="1.6841" />
+              <sampleAssociate sOffset="153" leftWidth="1.5839" rightWidth="1.68471" />
+              <sampleAssociate sOffset="153.5" leftWidth="1.58388" rightWidth="1.68533" />
+              <sampleAssociate sOffset="154" leftWidth="1.58385" rightWidth="1.68594" />
+              <sampleAssociate sOffset="154.5" leftWidth="1.58382" rightWidth="1.68655" />
+              <sampleAssociate sOffset="155" leftWidth="1.58379" rightWidth="1.68716" />
+              <sampleAssociate sOffset="155.5" leftWidth="1.58376" rightWidth="1.68778" />
+              <sampleAssociate sOffset="156" leftWidth="1.58373" rightWidth="1.68839" />
+              <sampleAssociate sOffset="156.5" leftWidth="1.5837" rightWidth="1.689" />
+              <sampleAssociate sOffset="157" leftWidth="1.58367" rightWidth="1.68962" />
+              <sampleAssociate sOffset="157.5" leftWidth="1.58364" rightWidth="1.69023" />
+              <sampleAssociate sOffset="158" leftWidth="1.58361" rightWidth="1.69084" />
+              <sampleAssociate sOffset="158.5" leftWidth="1.58358" rightWidth="1.69145" />
+              <sampleAssociate sOffset="159" leftWidth="1.58356" rightWidth="1.69207" />
+              <sampleAssociate sOffset="159.5" leftWidth="1.58353" rightWidth="1.69268" />
+              <sampleAssociate sOffset="160" leftWidth="1.5835" rightWidth="1.69329" />
+              <sampleAssociate sOffset="160.5" leftWidth="1.58347" rightWidth="1.6939" />
+              <sampleAssociate sOffset="161" leftWidth="1.58344" rightWidth="1.69452" />
+              <sampleAssociate sOffset="161.5" leftWidth="1.58341" rightWidth="1.69513" />
+              <sampleAssociate sOffset="162" leftWidth="1.58338" rightWidth="1.69574" />
+              <sampleAssociate sOffset="162.5" leftWidth="1.58335" rightWidth="1.69635" />
+              <sampleAssociate sOffset="163" leftWidth="1.58332" rightWidth="1.69697" />
+              <sampleAssociate sOffset="163.5" leftWidth="1.58329" rightWidth="1.69758" />
+              <sampleAssociate sOffset="164" leftWidth="1.58326" rightWidth="1.69819" />
+              <sampleAssociate sOffset="164.5" leftWidth="1.58323" rightWidth="1.6988" />
+              <sampleAssociate sOffset="165" leftWidth="1.58321" rightWidth="1.69942" />
+              <sampleAssociate sOffset="165.5" leftWidth="1.58318" rightWidth="1.70003" />
+              <sampleAssociate sOffset="166" leftWidth="1.58315" rightWidth="1.70064" />
+              <sampleAssociate sOffset="166.5" leftWidth="1.58312" rightWidth="1.70125" />
+              <sampleAssociate sOffset="167" leftWidth="1.58309" rightWidth="1.70187" />
+              <sampleAssociate sOffset="167.5" leftWidth="1.58306" rightWidth="1.70248" />
+              <sampleAssociate sOffset="168" leftWidth="1.58303" rightWidth="1.70309" />
+              <sampleAssociate sOffset="168.5" leftWidth="1.583" rightWidth="1.70371" />
+              <sampleAssociate sOffset="169" leftWidth="1.58297" rightWidth="1.70432" />
+              <sampleAssociate sOffset="169.5" leftWidth="1.58294" rightWidth="1.70493" />
+              <sampleAssociate sOffset="170" leftWidth="1.58291" rightWidth="1.70554" />
+              <sampleAssociate sOffset="170.5" leftWidth="1.58288" rightWidth="1.70616" />
+              <sampleAssociate sOffset="171" leftWidth="1.58286" rightWidth="1.70677" />
+              <sampleAssociate sOffset="171.5" leftWidth="1.58283" rightWidth="1.70738" />
+              <sampleAssociate sOffset="172" leftWidth="1.5828" rightWidth="1.70799" />
+              <sampleAssociate sOffset="172.5" leftWidth="1.58277" rightWidth="1.70861" />
+              <sampleAssociate sOffset="173" leftWidth="1.58274" rightWidth="1.70922" />
+              <sampleAssociate sOffset="173.5" leftWidth="1.58271" rightWidth="1.70983" />
+              <sampleAssociate sOffset="174" leftWidth="1.58268" rightWidth="1.71044" />
+              <sampleAssociate sOffset="174.5" leftWidth="1.58265" rightWidth="1.71106" />
+              <sampleAssociate sOffset="175" leftWidth="1.58262" rightWidth="1.71167" />
+              <sampleAssociate sOffset="175.5" leftWidth="1.58259" rightWidth="1.71228" />
+              <sampleAssociate sOffset="176" leftWidth="1.58256" rightWidth="1.71289" />
+              <sampleAssociate sOffset="176.5" leftWidth="1.58254" rightWidth="1.71351" />
+              <sampleAssociate sOffset="177" leftWidth="1.58251" rightWidth="1.71412" />
+              <sampleAssociate sOffset="177.5" leftWidth="1.58248" rightWidth="1.71473" />
+              <sampleAssociate sOffset="178" leftWidth="1.58245" rightWidth="1.71534" />
+              <sampleAssociate sOffset="178.5" leftWidth="1.58242" rightWidth="1.71596" />
+              <sampleAssociate sOffset="179" leftWidth="1.58239" rightWidth="1.71657" />
+              <sampleAssociate sOffset="179.5" leftWidth="1.58236" rightWidth="1.71718" />
+              <sampleAssociate sOffset="180" leftWidth="1.58233" rightWidth="1.7178" />
+              <sampleAssociate sOffset="180.5" leftWidth="1.5823" rightWidth="1.71841" />
+              <sampleAssociate sOffset="181" leftWidth="1.58227" rightWidth="1.71902" />
+              <sampleAssociate sOffset="181.5" leftWidth="1.58224" rightWidth="1.71963" />
+              <sampleAssociate sOffset="182" leftWidth="1.58221" rightWidth="1.72025" />
+              <sampleAssociate sOffset="182.5" leftWidth="1.58219" rightWidth="1.72086" />
+              <sampleAssociate sOffset="183" leftWidth="1.58216" rightWidth="1.72147" />
+              <sampleAssociate sOffset="183.5" leftWidth="1.58213" rightWidth="1.72208" />
+              <sampleAssociate sOffset="184" leftWidth="1.5821" rightWidth="1.7227" />
+              <sampleAssociate sOffset="184.5" leftWidth="1.58207" rightWidth="1.72331" />
+              <sampleAssociate sOffset="185" leftWidth="1.58204" rightWidth="1.72392" />
+              <sampleAssociate sOffset="185.5" leftWidth="1.58201" rightWidth="1.72453" />
+              <sampleAssociate sOffset="186" leftWidth="1.58198" rightWidth="1.72515" />
+              <sampleAssociate sOffset="186.5" leftWidth="1.58195" rightWidth="1.72576" />
+              <sampleAssociate sOffset="187" leftWidth="1.58192" rightWidth="1.72637" />
+              <sampleAssociate sOffset="187.5" leftWidth="1.58189" rightWidth="1.72698" />
+              <sampleAssociate sOffset="188" leftWidth="1.58187" rightWidth="1.7276" />
+              <sampleAssociate sOffset="188.5" leftWidth="1.58184" rightWidth="1.72821" />
+              <sampleAssociate sOffset="189" leftWidth="1.58181" rightWidth="1.72882" />
+              <sampleAssociate sOffset="189.5" leftWidth="1.58178" rightWidth="1.72943" />
+              <sampleAssociate sOffset="190" leftWidth="1.58175" rightWidth="1.73005" />
+              <sampleAssociate sOffset="190.5" leftWidth="1.58172" rightWidth="1.73066" />
+              <sampleAssociate sOffset="191" leftWidth="1.58169" rightWidth="1.73127" />
+              <sampleAssociate sOffset="191.5" leftWidth="1.58166" rightWidth="1.73189" />
+              <sampleAssociate sOffset="192" leftWidth="1.58163" rightWidth="1.7325" />
+              <sampleAssociate sOffset="192.5" leftWidth="1.5816" rightWidth="1.73311" />
+              <sampleAssociate sOffset="193" leftWidth="1.58157" rightWidth="1.73372" />
+              <sampleAssociate sOffset="193.5" leftWidth="1.58154" rightWidth="1.73434" />
+              <sampleAssociate sOffset="194" leftWidth="1.58152" rightWidth="1.73495" />
+              <sampleAssociate sOffset="194.5" leftWidth="1.58149" rightWidth="1.73556" />
+              <sampleAssociate sOffset="195" leftWidth="1.58146" rightWidth="1.73617" />
+              <sampleAssociate sOffset="195.5" leftWidth="1.58143" rightWidth="1.73679" />
+              <sampleAssociate sOffset="196" leftWidth="1.5814" rightWidth="1.7374" />
+              <sampleAssociate sOffset="196.5" leftWidth="1.58137" rightWidth="1.73801" />
+            </sampleAssociates>
+            <roadSampleAssociations>
+              <sampleAssociation sOffset="0" leftWidth="1.59373" rightWidth="4.94102" />
+              <sampleAssociation sOffset="0.5" leftWidth="1.59279" rightWidth="4.94147" />
+              <sampleAssociation sOffset="1" leftWidth="1.59276" rightWidth="4.94191" />
+              <sampleAssociation sOffset="1.5" leftWidth="1.59273" rightWidth="4.94235" />
+              <sampleAssociation sOffset="2" leftWidth="1.5927" rightWidth="4.94279" />
+              <sampleAssociation sOffset="2.5" leftWidth="1.59268" rightWidth="4.94323" />
+              <sampleAssociation sOffset="3" leftWidth="1.59265" rightWidth="4.94368" />
+              <sampleAssociation sOffset="3.5" leftWidth="1.59262" rightWidth="4.94412" />
+              <sampleAssociation sOffset="4" leftWidth="1.59259" rightWidth="4.94456" />
+              <sampleAssociation sOffset="4.5" leftWidth="1.59256" rightWidth="4.945" />
+              <sampleAssociation sOffset="5" leftWidth="1.59253" rightWidth="4.94544" />
+              <sampleAssociation sOffset="5.5" leftWidth="1.5925" rightWidth="4.94589" />
+              <sampleAssociation sOffset="6" leftWidth="1.59247" rightWidth="4.94633" />
+              <sampleAssociation sOffset="6.5" leftWidth="1.59244" rightWidth="4.94677" />
+              <sampleAssociation sOffset="7" leftWidth="1.59241" rightWidth="4.94721" />
+              <sampleAssociation sOffset="7.5" leftWidth="1.59238" rightWidth="4.94765" />
+              <sampleAssociation sOffset="8" leftWidth="1.59235" rightWidth="4.9481" />
+              <sampleAssociation sOffset="8.5" leftWidth="1.59233" rightWidth="4.94854" />
+              <sampleAssociation sOffset="9" leftWidth="1.5923" rightWidth="4.94898" />
+              <sampleAssociation sOffset="9.5" leftWidth="1.59227" rightWidth="4.94942" />
+              <sampleAssociation sOffset="10" leftWidth="1.59224" rightWidth="4.94986" />
+              <sampleAssociation sOffset="10.5" leftWidth="1.59221" rightWidth="4.95031" />
+              <sampleAssociation sOffset="11" leftWidth="1.59218" rightWidth="4.95075" />
+              <sampleAssociation sOffset="11.5" leftWidth="1.59215" rightWidth="4.95119" />
+              <sampleAssociation sOffset="12" leftWidth="1.59212" rightWidth="4.95163" />
+              <sampleAssociation sOffset="12.5" leftWidth="1.59209" rightWidth="4.95207" />
+              <sampleAssociation sOffset="13" leftWidth="1.59206" rightWidth="4.95252" />
+              <sampleAssociation sOffset="13.5" leftWidth="1.59203" rightWidth="4.95296" />
+              <sampleAssociation sOffset="14" leftWidth="1.592" rightWidth="4.9534" />
+              <sampleAssociation sOffset="14.5" leftWidth="1.59198" rightWidth="4.95384" />
+              <sampleAssociation sOffset="15" leftWidth="1.59195" rightWidth="4.95429" />
+              <sampleAssociation sOffset="15.5" leftWidth="1.59192" rightWidth="4.95473" />
+              <sampleAssociation sOffset="16" leftWidth="1.59189" rightWidth="4.95517" />
+              <sampleAssociation sOffset="16.5" leftWidth="1.59186" rightWidth="4.95561" />
+              <sampleAssociation sOffset="17" leftWidth="1.59183" rightWidth="4.95605" />
+              <sampleAssociation sOffset="17.5" leftWidth="1.5918" rightWidth="4.9565" />
+              <sampleAssociation sOffset="18" leftWidth="1.59177" rightWidth="4.95694" />
+              <sampleAssociation sOffset="18.5" leftWidth="1.59174" rightWidth="4.95738" />
+              <sampleAssociation sOffset="19" leftWidth="1.59171" rightWidth="4.95782" />
+              <sampleAssociation sOffset="19.5" leftWidth="1.59168" rightWidth="4.95826" />
+              <sampleAssociation sOffset="20" leftWidth="1.59166" rightWidth="4.95871" />
+              <sampleAssociation sOffset="20.5" leftWidth="1.59163" rightWidth="4.95915" />
+              <sampleAssociation sOffset="21" leftWidth="1.5916" rightWidth="4.95959" />
+              <sampleAssociation sOffset="21.5" leftWidth="1.59157" rightWidth="4.96003" />
+              <sampleAssociation sOffset="22" leftWidth="1.59154" rightWidth="4.96047" />
+              <sampleAssociation sOffset="22.5" leftWidth="1.59151" rightWidth="4.96092" />
+              <sampleAssociation sOffset="23" leftWidth="1.59148" rightWidth="4.96136" />
+              <sampleAssociation sOffset="23.5" leftWidth="1.59145" rightWidth="4.9618" />
+              <sampleAssociation sOffset="24" leftWidth="1.59142" rightWidth="4.96224" />
+              <sampleAssociation sOffset="24.5" leftWidth="1.59139" rightWidth="4.96268" />
+              <sampleAssociation sOffset="25" leftWidth="1.59136" rightWidth="4.96313" />
+              <sampleAssociation sOffset="25.5" leftWidth="1.59133" rightWidth="4.96357" />
+              <sampleAssociation sOffset="26" leftWidth="1.59131" rightWidth="4.96401" />
+              <sampleAssociation sOffset="26.5" leftWidth="1.59128" rightWidth="4.96445" />
+              <sampleAssociation sOffset="27" leftWidth="1.59125" rightWidth="4.96489" />
+              <sampleAssociation sOffset="27.5" leftWidth="1.59122" rightWidth="4.96534" />
+              <sampleAssociation sOffset="28" leftWidth="1.59119" rightWidth="4.96578" />
+              <sampleAssociation sOffset="28.5" leftWidth="1.59116" rightWidth="4.96622" />
+              <sampleAssociation sOffset="29" leftWidth="1.59113" rightWidth="4.96666" />
+              <sampleAssociation sOffset="29.5" leftWidth="1.5911" rightWidth="4.96711" />
+              <sampleAssociation sOffset="30" leftWidth="1.59107" rightWidth="4.96755" />
+              <sampleAssociation sOffset="30.5" leftWidth="1.59104" rightWidth="4.96799" />
+              <sampleAssociation sOffset="31" leftWidth="1.59101" rightWidth="4.96843" />
+              <sampleAssociation sOffset="31.5" leftWidth="1.59099" rightWidth="4.96887" />
+              <sampleAssociation sOffset="32" leftWidth="1.59096" rightWidth="4.96932" />
+              <sampleAssociation sOffset="32.5" leftWidth="1.59093" rightWidth="4.96976" />
+              <sampleAssociation sOffset="33" leftWidth="1.5909" rightWidth="4.9702" />
+              <sampleAssociation sOffset="33.5" leftWidth="1.59087" rightWidth="4.97064" />
+              <sampleAssociation sOffset="34" leftWidth="1.59084" rightWidth="4.97108" />
+              <sampleAssociation sOffset="34.5" leftWidth="1.59081" rightWidth="4.97153" />
+              <sampleAssociation sOffset="35" leftWidth="1.59078" rightWidth="4.97197" />
+              <sampleAssociation sOffset="35.5" leftWidth="1.59075" rightWidth="4.97241" />
+              <sampleAssociation sOffset="36" leftWidth="1.59072" rightWidth="4.97285" />
+              <sampleAssociation sOffset="36.5" leftWidth="1.59069" rightWidth="4.97329" />
+              <sampleAssociation sOffset="37" leftWidth="1.59066" rightWidth="4.97374" />
+              <sampleAssociation sOffset="37.5" leftWidth="1.59064" rightWidth="4.97418" />
+              <sampleAssociation sOffset="38" leftWidth="1.59061" rightWidth="4.97462" />
+              <sampleAssociation sOffset="38.5" leftWidth="1.59058" rightWidth="4.97506" />
+              <sampleAssociation sOffset="39" leftWidth="1.59055" rightWidth="4.9755" />
+              <sampleAssociation sOffset="39.5" leftWidth="1.59052" rightWidth="4.97595" />
+              <sampleAssociation sOffset="40" leftWidth="1.59049" rightWidth="4.97639" />
+              <sampleAssociation sOffset="40.5" leftWidth="1.59046" rightWidth="4.97683" />
+              <sampleAssociation sOffset="41" leftWidth="1.59043" rightWidth="4.97727" />
+              <sampleAssociation sOffset="41.5" leftWidth="1.5904" rightWidth="4.97771" />
+              <sampleAssociation sOffset="42" leftWidth="1.59037" rightWidth="4.97816" />
+              <sampleAssociation sOffset="42.5" leftWidth="1.59034" rightWidth="4.9786" />
+              <sampleAssociation sOffset="43" leftWidth="1.59032" rightWidth="4.97904" />
+              <sampleAssociation sOffset="43.5" leftWidth="1.59029" rightWidth="4.97948" />
+              <sampleAssociation sOffset="44" leftWidth="1.59026" rightWidth="4.97993" />
+              <sampleAssociation sOffset="44.5" leftWidth="1.59023" rightWidth="4.98037" />
+              <sampleAssociation sOffset="45" leftWidth="1.5902" rightWidth="4.98081" />
+              <sampleAssociation sOffset="45.5" leftWidth="1.59017" rightWidth="4.98125" />
+              <sampleAssociation sOffset="46" leftWidth="1.59014" rightWidth="4.98169" />
+              <sampleAssociation sOffset="46.5" leftWidth="1.59011" rightWidth="4.98214" />
+              <sampleAssociation sOffset="47" leftWidth="1.59008" rightWidth="4.98258" />
+              <sampleAssociation sOffset="47.5" leftWidth="1.59005" rightWidth="4.98302" />
+              <sampleAssociation sOffset="48" leftWidth="1.59002" rightWidth="4.98346" />
+              <sampleAssociation sOffset="48.5" leftWidth="1.58999" rightWidth="4.9839" />
+              <sampleAssociation sOffset="49" leftWidth="1.58997" rightWidth="4.98435" />
+              <sampleAssociation sOffset="49.5" leftWidth="1.58994" rightWidth="4.98479" />
+              <sampleAssociation sOffset="50" leftWidth="1.58991" rightWidth="4.98523" />
+              <sampleAssociation sOffset="50.5" leftWidth="1.58988" rightWidth="4.98567" />
+              <sampleAssociation sOffset="51" leftWidth="1.58985" rightWidth="4.98611" />
+              <sampleAssociation sOffset="51.5" leftWidth="1.58982" rightWidth="4.98656" />
+              <sampleAssociation sOffset="52" leftWidth="1.58979" rightWidth="4.987" />
+              <sampleAssociation sOffset="52.5" leftWidth="1.58976" rightWidth="4.98744" />
+              <sampleAssociation sOffset="53" leftWidth="1.58973" rightWidth="4.98788" />
+              <sampleAssociation sOffset="53.5" leftWidth="1.5897" rightWidth="4.98832" />
+              <sampleAssociation sOffset="54" leftWidth="1.58967" rightWidth="4.98877" />
+              <sampleAssociation sOffset="54.5" leftWidth="1.58964" rightWidth="4.98921" />
+              <sampleAssociation sOffset="55" leftWidth="1.58962" rightWidth="4.98965" />
+              <sampleAssociation sOffset="55.5" leftWidth="1.58959" rightWidth="4.99009" />
+              <sampleAssociation sOffset="56" leftWidth="1.58956" rightWidth="4.99053" />
+              <sampleAssociation sOffset="56.5" leftWidth="1.58953" rightWidth="4.99098" />
+              <sampleAssociation sOffset="57" leftWidth="1.5895" rightWidth="4.99142" />
+              <sampleAssociation sOffset="57.5" leftWidth="1.58947" rightWidth="4.99186" />
+              <sampleAssociation sOffset="58" leftWidth="1.58944" rightWidth="4.9923" />
+              <sampleAssociation sOffset="58.5" leftWidth="1.58941" rightWidth="4.99275" />
+              <sampleAssociation sOffset="59" leftWidth="1.58938" rightWidth="4.99319" />
+              <sampleAssociation sOffset="59.5" leftWidth="1.58935" rightWidth="4.99363" />
+              <sampleAssociation sOffset="60" leftWidth="1.58932" rightWidth="4.99407" />
+              <sampleAssociation sOffset="60.5" leftWidth="1.5893" rightWidth="4.99451" />
+              <sampleAssociation sOffset="61" leftWidth="1.58927" rightWidth="4.99496" />
+              <sampleAssociation sOffset="61.5" leftWidth="1.58924" rightWidth="4.9954" />
+              <sampleAssociation sOffset="62" leftWidth="1.58921" rightWidth="4.99584" />
+              <sampleAssociation sOffset="62.5" leftWidth="1.58918" rightWidth="4.99628" />
+              <sampleAssociation sOffset="63" leftWidth="1.58915" rightWidth="4.99672" />
+              <sampleAssociation sOffset="63.5" leftWidth="1.58912" rightWidth="4.99717" />
+              <sampleAssociation sOffset="64" leftWidth="1.58909" rightWidth="4.99761" />
+              <sampleAssociation sOffset="64.5" leftWidth="1.58906" rightWidth="4.99805" />
+              <sampleAssociation sOffset="65" leftWidth="1.58903" rightWidth="4.99849" />
+              <sampleAssociation sOffset="65.5" leftWidth="1.589" rightWidth="4.99893" />
+              <sampleAssociation sOffset="66" leftWidth="1.58897" rightWidth="4.99938" />
+              <sampleAssociation sOffset="66.5" leftWidth="1.58895" rightWidth="4.99982" />
+              <sampleAssociation sOffset="67" leftWidth="1.58892" rightWidth="5.00026" />
+              <sampleAssociation sOffset="67.5" leftWidth="1.58889" rightWidth="5.0007" />
+              <sampleAssociation sOffset="68" leftWidth="1.58886" rightWidth="5.00114" />
+              <sampleAssociation sOffset="68.5" leftWidth="1.58883" rightWidth="5.00159" />
+              <sampleAssociation sOffset="69" leftWidth="1.5888" rightWidth="5.00203" />
+              <sampleAssociation sOffset="69.5" leftWidth="1.58877" rightWidth="5.00247" />
+              <sampleAssociation sOffset="70" leftWidth="1.58874" rightWidth="5.00291" />
+              <sampleAssociation sOffset="70.5" leftWidth="1.58871" rightWidth="5.00335" />
+              <sampleAssociation sOffset="71" leftWidth="1.58868" rightWidth="5.0038" />
+              <sampleAssociation sOffset="71.5" leftWidth="1.58865" rightWidth="5.00424" />
+              <sampleAssociation sOffset="72" leftWidth="1.58863" rightWidth="5.00468" />
+              <sampleAssociation sOffset="72.5" leftWidth="1.5886" rightWidth="5.00512" />
+              <sampleAssociation sOffset="73" leftWidth="1.58857" rightWidth="5.00557" />
+              <sampleAssociation sOffset="73.5" leftWidth="1.58854" rightWidth="5.00601" />
+              <sampleAssociation sOffset="74" leftWidth="1.58851" rightWidth="5.00645" />
+              <sampleAssociation sOffset="74.5" leftWidth="1.58848" rightWidth="5.00689" />
+              <sampleAssociation sOffset="75" leftWidth="1.58845" rightWidth="5.00733" />
+              <sampleAssociation sOffset="75.5" leftWidth="1.58842" rightWidth="5.00778" />
+              <sampleAssociation sOffset="76" leftWidth="1.58839" rightWidth="5.00822" />
+              <sampleAssociation sOffset="76.5" leftWidth="1.58836" rightWidth="5.00866" />
+              <sampleAssociation sOffset="77" leftWidth="1.58833" rightWidth="5.0091" />
+              <sampleAssociation sOffset="77.5" leftWidth="1.5883" rightWidth="5.00954" />
+              <sampleAssociation sOffset="78" leftWidth="1.58828" rightWidth="5.00999" />
+              <sampleAssociation sOffset="78.5" leftWidth="1.58825" rightWidth="5.01043" />
+              <sampleAssociation sOffset="79" leftWidth="1.58822" rightWidth="5.01087" />
+              <sampleAssociation sOffset="79.5" leftWidth="1.58819" rightWidth="5.01131" />
+              <sampleAssociation sOffset="80" leftWidth="1.58816" rightWidth="5.01175" />
+              <sampleAssociation sOffset="80.5" leftWidth="1.58813" rightWidth="5.0122" />
+              <sampleAssociation sOffset="81" leftWidth="1.5881" rightWidth="5.01264" />
+              <sampleAssociation sOffset="81.5" leftWidth="1.58807" rightWidth="5.01308" />
+              <sampleAssociation sOffset="82" leftWidth="1.58804" rightWidth="5.01352" />
+              <sampleAssociation sOffset="82.5" leftWidth="1.58801" rightWidth="5.01396" />
+              <sampleAssociation sOffset="83" leftWidth="1.58798" rightWidth="5.01441" />
+              <sampleAssociation sOffset="83.5" leftWidth="1.58795" rightWidth="5.01485" />
+              <sampleAssociation sOffset="84" leftWidth="1.58793" rightWidth="5.01529" />
+              <sampleAssociation sOffset="84.5" leftWidth="1.5879" rightWidth="5.01573" />
+              <sampleAssociation sOffset="85" leftWidth="1.58787" rightWidth="5.01617" />
+              <sampleAssociation sOffset="85.5" leftWidth="1.58784" rightWidth="5.01662" />
+              <sampleAssociation sOffset="86" leftWidth="1.58781" rightWidth="5.01706" />
+              <sampleAssociation sOffset="86.5" leftWidth="1.58778" rightWidth="5.0175" />
+              <sampleAssociation sOffset="87" leftWidth="1.58775" rightWidth="5.01794" />
+              <sampleAssociation sOffset="87.5" leftWidth="1.58772" rightWidth="5.01838" />
+              <sampleAssociation sOffset="88" leftWidth="1.58769" rightWidth="5.01883" />
+              <sampleAssociation sOffset="88.5" leftWidth="1.58766" rightWidth="5.01927" />
+              <sampleAssociation sOffset="89" leftWidth="1.58763" rightWidth="5.01971" />
+              <sampleAssociation sOffset="89.5" leftWidth="1.58761" rightWidth="5.02015" />
+              <sampleAssociation sOffset="90" leftWidth="1.58758" rightWidth="5.0206" />
+              <sampleAssociation sOffset="90.5" leftWidth="1.58755" rightWidth="5.02104" />
+              <sampleAssociation sOffset="91" leftWidth="1.58752" rightWidth="5.02148" />
+              <sampleAssociation sOffset="91.5" leftWidth="1.58749" rightWidth="5.02192" />
+              <sampleAssociation sOffset="92" leftWidth="1.58746" rightWidth="5.02236" />
+              <sampleAssociation sOffset="92.5" leftWidth="1.58743" rightWidth="5.02281" />
+              <sampleAssociation sOffset="93" leftWidth="1.5874" rightWidth="5.02325" />
+              <sampleAssociation sOffset="93.5" leftWidth="1.58737" rightWidth="5.02369" />
+              <sampleAssociation sOffset="94" leftWidth="1.58734" rightWidth="5.02413" />
+              <sampleAssociation sOffset="94.5" leftWidth="1.58731" rightWidth="5.02457" />
+              <sampleAssociation sOffset="95" leftWidth="1.58728" rightWidth="5.02502" />
+              <sampleAssociation sOffset="95.5" leftWidth="1.58726" rightWidth="5.02546" />
+              <sampleAssociation sOffset="96" leftWidth="1.58723" rightWidth="5.0259" />
+              <sampleAssociation sOffset="96.5" leftWidth="1.5872" rightWidth="5.02634" />
+              <sampleAssociation sOffset="97" leftWidth="1.58717" rightWidth="5.02678" />
+              <sampleAssociation sOffset="97.5" leftWidth="1.58714" rightWidth="5.02723" />
+              <sampleAssociation sOffset="98" leftWidth="1.58711" rightWidth="5.02767" />
+              <sampleAssociation sOffset="98.5" leftWidth="1.58708" rightWidth="5.02811" />
+              <sampleAssociation sOffset="99" leftWidth="1.58705" rightWidth="5.02855" />
+              <sampleAssociation sOffset="99.5" leftWidth="1.58702" rightWidth="5.02899" />
+              <sampleAssociation sOffset="100" leftWidth="1.58699" rightWidth="5.02944" />
+              <sampleAssociation sOffset="100.5" leftWidth="1.58696" rightWidth="5.02988" />
+              <sampleAssociation sOffset="101" leftWidth="1.58694" rightWidth="5.03032" />
+              <sampleAssociation sOffset="101.5" leftWidth="1.58691" rightWidth="5.03076" />
+              <sampleAssociation sOffset="102" leftWidth="1.58688" rightWidth="5.0312" />
+              <sampleAssociation sOffset="102.5" leftWidth="1.58685" rightWidth="5.03165" />
+              <sampleAssociation sOffset="103" leftWidth="1.58682" rightWidth="5.03209" />
+              <sampleAssociation sOffset="103.5" leftWidth="1.58679" rightWidth="5.03253" />
+              <sampleAssociation sOffset="104" leftWidth="1.58676" rightWidth="5.03297" />
+              <sampleAssociation sOffset="104.5" leftWidth="1.58673" rightWidth="5.03342" />
+              <sampleAssociation sOffset="105" leftWidth="1.5867" rightWidth="5.03386" />
+              <sampleAssociation sOffset="105.5" leftWidth="1.58667" rightWidth="5.0343" />
+              <sampleAssociation sOffset="106" leftWidth="1.58664" rightWidth="5.03474" />
+              <sampleAssociation sOffset="106.5" leftWidth="1.58661" rightWidth="5.03518" />
+              <sampleAssociation sOffset="107" leftWidth="1.58659" rightWidth="5.03563" />
+              <sampleAssociation sOffset="107.5" leftWidth="1.58656" rightWidth="5.03607" />
+              <sampleAssociation sOffset="108" leftWidth="1.58653" rightWidth="5.03651" />
+              <sampleAssociation sOffset="108.5" leftWidth="1.5865" rightWidth="5.03695" />
+              <sampleAssociation sOffset="109" leftWidth="1.58647" rightWidth="5.03739" />
+              <sampleAssociation sOffset="109.5" leftWidth="1.58644" rightWidth="5.03784" />
+              <sampleAssociation sOffset="110" leftWidth="1.58641" rightWidth="5.03828" />
+              <sampleAssociation sOffset="110.5" leftWidth="1.58638" rightWidth="5.03872" />
+              <sampleAssociation sOffset="111" leftWidth="1.58635" rightWidth="5.03916" />
+              <sampleAssociation sOffset="111.5" leftWidth="1.58632" rightWidth="5.0396" />
+              <sampleAssociation sOffset="112" leftWidth="1.58629" rightWidth="5.04005" />
+              <sampleAssociation sOffset="112.5" leftWidth="1.58626" rightWidth="5.04049" />
+              <sampleAssociation sOffset="113" leftWidth="1.58624" rightWidth="5.04093" />
+              <sampleAssociation sOffset="113.5" leftWidth="1.58621" rightWidth="5.04137" />
+              <sampleAssociation sOffset="114" leftWidth="1.58618" rightWidth="5.04181" />
+              <sampleAssociation sOffset="114.5" leftWidth="1.58615" rightWidth="5.04226" />
+              <sampleAssociation sOffset="115" leftWidth="1.58612" rightWidth="5.0427" />
+              <sampleAssociation sOffset="115.5" leftWidth="1.58609" rightWidth="5.04314" />
+              <sampleAssociation sOffset="116" leftWidth="1.58606" rightWidth="5.04358" />
+              <sampleAssociation sOffset="116.5" leftWidth="1.58603" rightWidth="5.04402" />
+              <sampleAssociation sOffset="117" leftWidth="1.586" rightWidth="5.04447" />
+              <sampleAssociation sOffset="117.5" leftWidth="1.58597" rightWidth="5.04491" />
+              <sampleAssociation sOffset="118" leftWidth="1.58594" rightWidth="5.04535" />
+              <sampleAssociation sOffset="118.5" leftWidth="1.58592" rightWidth="5.04579" />
+              <sampleAssociation sOffset="119" leftWidth="1.58589" rightWidth="5.04624" />
+              <sampleAssociation sOffset="119.5" leftWidth="1.58586" rightWidth="5.04668" />
+              <sampleAssociation sOffset="120" leftWidth="1.58583" rightWidth="5.04712" />
+              <sampleAssociation sOffset="120.5" leftWidth="1.5858" rightWidth="5.04756" />
+              <sampleAssociation sOffset="121" leftWidth="1.58577" rightWidth="5.048" />
+              <sampleAssociation sOffset="121.5" leftWidth="1.58574" rightWidth="5.04845" />
+              <sampleAssociation sOffset="122" leftWidth="1.58571" rightWidth="5.04889" />
+              <sampleAssociation sOffset="122.5" leftWidth="1.58568" rightWidth="5.04933" />
+              <sampleAssociation sOffset="123" leftWidth="1.58565" rightWidth="5.04977" />
+              <sampleAssociation sOffset="123.5" leftWidth="1.58562" rightWidth="5.05021" />
+              <sampleAssociation sOffset="124" leftWidth="1.58559" rightWidth="5.05066" />
+              <sampleAssociation sOffset="124.5" leftWidth="1.58557" rightWidth="5.0511" />
+              <sampleAssociation sOffset="125" leftWidth="1.58554" rightWidth="5.05154" />
+              <sampleAssociation sOffset="125.5" leftWidth="1.58551" rightWidth="5.05198" />
+              <sampleAssociation sOffset="126" leftWidth="1.58548" rightWidth="5.05242" />
+              <sampleAssociation sOffset="126.5" leftWidth="1.58545" rightWidth="5.05287" />
+              <sampleAssociation sOffset="127" leftWidth="1.58542" rightWidth="5.05331" />
+              <sampleAssociation sOffset="127.5" leftWidth="1.58539" rightWidth="5.05375" />
+              <sampleAssociation sOffset="128" leftWidth="1.58536" rightWidth="5.05419" />
+              <sampleAssociation sOffset="128.5" leftWidth="1.58533" rightWidth="5.05463" />
+              <sampleAssociation sOffset="129" leftWidth="1.5853" rightWidth="5.05508" />
+              <sampleAssociation sOffset="129.5" leftWidth="1.58527" rightWidth="5.05552" />
+              <sampleAssociation sOffset="130" leftWidth="1.58525" rightWidth="5.05596" />
+              <sampleAssociation sOffset="130.5" leftWidth="1.58522" rightWidth="5.0564" />
+              <sampleAssociation sOffset="131" leftWidth="1.58519" rightWidth="5.05684" />
+              <sampleAssociation sOffset="131.5" leftWidth="1.58516" rightWidth="5.05729" />
+              <sampleAssociation sOffset="132" leftWidth="1.58513" rightWidth="5.05773" />
+              <sampleAssociation sOffset="132.5" leftWidth="1.5851" rightWidth="5.05817" />
+              <sampleAssociation sOffset="133" leftWidth="1.58507" rightWidth="5.05861" />
+              <sampleAssociation sOffset="133.5" leftWidth="1.58504" rightWidth="5.05906" />
+              <sampleAssociation sOffset="134" leftWidth="1.58501" rightWidth="5.0595" />
+              <sampleAssociation sOffset="134.5" leftWidth="1.58498" rightWidth="5.05994" />
+              <sampleAssociation sOffset="135" leftWidth="1.58495" rightWidth="5.06038" />
+              <sampleAssociation sOffset="135.5" leftWidth="1.58492" rightWidth="5.06082" />
+              <sampleAssociation sOffset="136" leftWidth="1.5849" rightWidth="5.06127" />
+              <sampleAssociation sOffset="136.5" leftWidth="1.58487" rightWidth="5.06171" />
+              <sampleAssociation sOffset="137" leftWidth="1.58484" rightWidth="5.06215" />
+              <sampleAssociation sOffset="137.5" leftWidth="1.58481" rightWidth="5.06259" />
+              <sampleAssociation sOffset="138" leftWidth="1.58478" rightWidth="5.06303" />
+              <sampleAssociation sOffset="138.5" leftWidth="1.58475" rightWidth="5.06348" />
+              <sampleAssociation sOffset="139" leftWidth="1.58472" rightWidth="5.06392" />
+              <sampleAssociation sOffset="139.5" leftWidth="1.58469" rightWidth="5.06436" />
+              <sampleAssociation sOffset="140" leftWidth="1.58466" rightWidth="5.0648" />
+              <sampleAssociation sOffset="140.5" leftWidth="1.58463" rightWidth="5.06524" />
+              <sampleAssociation sOffset="141" leftWidth="1.5846" rightWidth="5.06569" />
+              <sampleAssociation sOffset="141.5" leftWidth="1.58457" rightWidth="5.06613" />
+              <sampleAssociation sOffset="142" leftWidth="1.58455" rightWidth="5.06657" />
+              <sampleAssociation sOffset="142.5" leftWidth="1.58452" rightWidth="5.06701" />
+              <sampleAssociation sOffset="143" leftWidth="1.58449" rightWidth="5.06745" />
+              <sampleAssociation sOffset="143.5" leftWidth="1.58446" rightWidth="5.0679" />
+              <sampleAssociation sOffset="144" leftWidth="1.58443" rightWidth="5.06834" />
+              <sampleAssociation sOffset="144.5" leftWidth="1.5844" rightWidth="5.06878" />
+              <sampleAssociation sOffset="145" leftWidth="1.58437" rightWidth="5.06922" />
+              <sampleAssociation sOffset="145.5" leftWidth="1.58434" rightWidth="5.06966" />
+              <sampleAssociation sOffset="146" leftWidth="1.58431" rightWidth="5.07011" />
+              <sampleAssociation sOffset="146.5" leftWidth="1.58428" rightWidth="5.07055" />
+              <sampleAssociation sOffset="147" leftWidth="1.58425" rightWidth="5.07099" />
+              <sampleAssociation sOffset="147.5" leftWidth="1.58423" rightWidth="5.07143" />
+              <sampleAssociation sOffset="148" leftWidth="1.5842" rightWidth="5.07187" />
+              <sampleAssociation sOffset="148.5" leftWidth="1.58417" rightWidth="5.07232" />
+              <sampleAssociation sOffset="149" leftWidth="1.58414" rightWidth="5.07276" />
+              <sampleAssociation sOffset="149.5" leftWidth="1.58411" rightWidth="5.0732" />
+              <sampleAssociation sOffset="150" leftWidth="1.58408" rightWidth="5.07364" />
+              <sampleAssociation sOffset="150.5" leftWidth="1.58405" rightWidth="5.07409" />
+              <sampleAssociation sOffset="151" leftWidth="1.58402" rightWidth="5.07453" />
+              <sampleAssociation sOffset="151.5" leftWidth="1.58399" rightWidth="5.07497" />
+              <sampleAssociation sOffset="152" leftWidth="1.58396" rightWidth="5.07541" />
+              <sampleAssociation sOffset="152.5" leftWidth="1.58393" rightWidth="5.07585" />
+              <sampleAssociation sOffset="153" leftWidth="1.5839" rightWidth="5.0763" />
+              <sampleAssociation sOffset="153.5" leftWidth="1.58388" rightWidth="5.07674" />
+              <sampleAssociation sOffset="154" leftWidth="1.58385" rightWidth="5.07718" />
+              <sampleAssociation sOffset="154.5" leftWidth="1.58382" rightWidth="5.07762" />
+              <sampleAssociation sOffset="155" leftWidth="1.58379" rightWidth="5.07806" />
+              <sampleAssociation sOffset="155.5" leftWidth="1.58376" rightWidth="5.07851" />
+              <sampleAssociation sOffset="156" leftWidth="1.58373" rightWidth="5.07895" />
+              <sampleAssociation sOffset="156.5" leftWidth="1.5837" rightWidth="5.07939" />
+              <sampleAssociation sOffset="157" leftWidth="1.58367" rightWidth="5.07983" />
+              <sampleAssociation sOffset="157.5" leftWidth="1.58364" rightWidth="5.08027" />
+              <sampleAssociation sOffset="158" leftWidth="1.58361" rightWidth="5.08072" />
+              <sampleAssociation sOffset="158.5" leftWidth="1.58358" rightWidth="5.08116" />
+              <sampleAssociation sOffset="159" leftWidth="1.58356" rightWidth="5.0816" />
+              <sampleAssociation sOffset="159.5" leftWidth="1.58353" rightWidth="5.08204" />
+              <sampleAssociation sOffset="160" leftWidth="1.5835" rightWidth="5.08248" />
+              <sampleAssociation sOffset="160.5" leftWidth="1.58347" rightWidth="5.08293" />
+              <sampleAssociation sOffset="161" leftWidth="1.58344" rightWidth="5.08337" />
+              <sampleAssociation sOffset="161.5" leftWidth="1.58341" rightWidth="5.08381" />
+              <sampleAssociation sOffset="162" leftWidth="1.58338" rightWidth="5.08425" />
+              <sampleAssociation sOffset="162.5" leftWidth="1.58335" rightWidth="5.08469" />
+              <sampleAssociation sOffset="163" leftWidth="1.58332" rightWidth="5.08514" />
+              <sampleAssociation sOffset="163.5" leftWidth="1.58329" rightWidth="5.08558" />
+              <sampleAssociation sOffset="164" leftWidth="1.58326" rightWidth="5.08602" />
+              <sampleAssociation sOffset="164.5" leftWidth="1.58323" rightWidth="5.08646" />
+              <sampleAssociation sOffset="165" leftWidth="1.58321" rightWidth="5.08691" />
+              <sampleAssociation sOffset="165.5" leftWidth="1.58318" rightWidth="5.08735" />
+              <sampleAssociation sOffset="166" leftWidth="1.58315" rightWidth="5.08779" />
+              <sampleAssociation sOffset="166.5" leftWidth="1.58312" rightWidth="5.08823" />
+              <sampleAssociation sOffset="167" leftWidth="1.58309" rightWidth="5.08867" />
+              <sampleAssociation sOffset="167.5" leftWidth="1.58306" rightWidth="5.08912" />
+              <sampleAssociation sOffset="168" leftWidth="1.58303" rightWidth="5.08956" />
+              <sampleAssociation sOffset="168.5" leftWidth="1.583" rightWidth="5.09" />
+              <sampleAssociation sOffset="169" leftWidth="1.58297" rightWidth="5.09044" />
+              <sampleAssociation sOffset="169.5" leftWidth="1.58294" rightWidth="5.09088" />
+              <sampleAssociation sOffset="170" leftWidth="1.58291" rightWidth="5.09133" />
+              <sampleAssociation sOffset="170.5" leftWidth="1.58288" rightWidth="5.09177" />
+              <sampleAssociation sOffset="171" leftWidth="1.58286" rightWidth="5.09221" />
+              <sampleAssociation sOffset="171.5" leftWidth="1.58283" rightWidth="5.09265" />
+              <sampleAssociation sOffset="172" leftWidth="1.5828" rightWidth="5.09309" />
+              <sampleAssociation sOffset="172.5" leftWidth="1.58277" rightWidth="5.09354" />
+              <sampleAssociation sOffset="173" leftWidth="1.58274" rightWidth="5.09398" />
+              <sampleAssociation sOffset="173.5" leftWidth="1.58271" rightWidth="5.09442" />
+              <sampleAssociation sOffset="174" leftWidth="1.58268" rightWidth="5.09486" />
+              <sampleAssociation sOffset="174.5" leftWidth="1.58265" rightWidth="5.0953" />
+              <sampleAssociation sOffset="175" leftWidth="1.58262" rightWidth="5.09575" />
+              <sampleAssociation sOffset="175.5" leftWidth="1.58259" rightWidth="5.09619" />
+              <sampleAssociation sOffset="176" leftWidth="1.58256" rightWidth="5.09663" />
+              <sampleAssociation sOffset="176.5" leftWidth="1.58254" rightWidth="5.09707" />
+              <sampleAssociation sOffset="177" leftWidth="1.58251" rightWidth="5.09751" />
+              <sampleAssociation sOffset="177.5" leftWidth="1.58248" rightWidth="5.09796" />
+              <sampleAssociation sOffset="178" leftWidth="1.58245" rightWidth="5.0984" />
+              <sampleAssociation sOffset="178.5" leftWidth="1.58242" rightWidth="5.09884" />
+              <sampleAssociation sOffset="179" leftWidth="1.58239" rightWidth="5.09928" />
+              <sampleAssociation sOffset="179.5" leftWidth="1.58236" rightWidth="5.09973" />
+              <sampleAssociation sOffset="180" leftWidth="1.58233" rightWidth="5.10017" />
+              <sampleAssociation sOffset="180.5" leftWidth="1.5823" rightWidth="5.10061" />
+              <sampleAssociation sOffset="181" leftWidth="1.58227" rightWidth="5.10105" />
+              <sampleAssociation sOffset="181.5" leftWidth="1.58224" rightWidth="5.10149" />
+              <sampleAssociation sOffset="182" leftWidth="1.58221" rightWidth="5.10194" />
+              <sampleAssociation sOffset="182.5" leftWidth="1.58219" rightWidth="5.10238" />
+              <sampleAssociation sOffset="183" leftWidth="1.58216" rightWidth="5.10282" />
+              <sampleAssociation sOffset="183.5" leftWidth="1.58213" rightWidth="5.10326" />
+              <sampleAssociation sOffset="184" leftWidth="1.5821" rightWidth="5.1037" />
+              <sampleAssociation sOffset="184.5" leftWidth="1.58207" rightWidth="5.10415" />
+              <sampleAssociation sOffset="185" leftWidth="1.58204" rightWidth="5.10459" />
+              <sampleAssociation sOffset="185.5" leftWidth="1.58201" rightWidth="5.10503" />
+              <sampleAssociation sOffset="186" leftWidth="1.58198" rightWidth="5.10547" />
+              <sampleAssociation sOffset="186.5" leftWidth="1.58195" rightWidth="5.10591" />
+              <sampleAssociation sOffset="187" leftWidth="1.58192" rightWidth="5.10636" />
+              <sampleAssociation sOffset="187.5" leftWidth="1.58189" rightWidth="5.1068" />
+              <sampleAssociation sOffset="188" leftWidth="1.58187" rightWidth="5.10724" />
+              <sampleAssociation sOffset="188.5" leftWidth="1.58184" rightWidth="5.10768" />
+              <sampleAssociation sOffset="189" leftWidth="1.58181" rightWidth="5.10812" />
+              <sampleAssociation sOffset="189.5" leftWidth="1.58178" rightWidth="5.10857" />
+              <sampleAssociation sOffset="190" leftWidth="1.58175" rightWidth="5.10901" />
+              <sampleAssociation sOffset="190.5" leftWidth="1.58172" rightWidth="5.10945" />
+              <sampleAssociation sOffset="191" leftWidth="1.58169" rightWidth="5.10989" />
+              <sampleAssociation sOffset="191.5" leftWidth="1.58166" rightWidth="5.11033" />
+              <sampleAssociation sOffset="192" leftWidth="1.58163" rightWidth="5.11078" />
+              <sampleAssociation sOffset="192.5" leftWidth="1.5816" rightWidth="5.11122" />
+              <sampleAssociation sOffset="193" leftWidth="1.58157" rightWidth="5.11166" />
+              <sampleAssociation sOffset="193.5" leftWidth="1.58154" rightWidth="5.1121" />
+              <sampleAssociation sOffset="194" leftWidth="1.58152" rightWidth="5.11255" />
+              <sampleAssociation sOffset="194.5" leftWidth="1.58149" rightWidth="5.11299" />
+              <sampleAssociation sOffset="195" leftWidth="1.58146" rightWidth="5.11343" />
+              <sampleAssociation sOffset="195.5" leftWidth="1.58143" rightWidth="5.11387" />
+              <sampleAssociation sOffset="196" leftWidth="1.5814" rightWidth="5.11431" />
+              <sampleAssociation sOffset="196.5" leftWidth="1.58137" rightWidth="5.11476" />
+            </roadSampleAssociations>
+          </lane>
+          <lane id="-2" uid="10000110" type="driving" direction="forward" turnType="noTurn">
+            <centerLine>
+              <geometry sOffset="0" length="5.968719033e+02" x="3.731684812e+01" y="5.634859421e+01" z="0.000000000e+00">
+                <pointSet>
+                  <point x="3.731684812e+01" y="5.634859421e+01" z="0.000000000e+00" />
+                  <point x="3.730566427e+01" y="5.634855283e+01" z="0.000000000e+00" />
+                </pointSet>
+              </geometry>
+            </centerLine>
+            <border virtual="FALSE">
+              <geometry sOffset="0" length="5.967637231e+02" x="3.731684762e+01" y="5.634860931e+01" z="0.000000000e+00">
+                <pointSet>
+                  <point x="3.731684762e+01" y="5.634860931e+01" z="0.000000000e+00" />
+                  <point x="3.730566553e+01" y="5.634856741e+01" z="0.000000000e+00" />
+                </pointSet>
+              </geometry>
+              <borderType sOffset="0.000000000e+00" type="solid" color="white" />
+            </border>
+            <link>
+              <predecessor id="10000109" />
+              <successor id="10000157" />
+              <neighbor id="10000103" side="left" direction="same" />
+            </link>
+            <speed min="0" max="70" />
+            <sampleAssociates>
+              <sampleAssociate sOffset="0" leftWidth="1.76285" rightWidth="1.68164" />
+              <sampleAssociate sOffset="0.5" leftWidth="1.76217" rightWidth="1.68146" />
+              <sampleAssociate sOffset="1" leftWidth="1.76215" rightWidth="1.68131" />
+              <sampleAssociate sOffset="1.5" leftWidth="1.76213" rightWidth="1.68116" />
+              <sampleAssociate sOffset="2" leftWidth="1.76211" rightWidth="1.68101" />
+              <sampleAssociate sOffset="2.5" leftWidth="1.76209" rightWidth="1.68086" />
+              <sampleAssociate sOffset="3" leftWidth="1.76207" rightWidth="1.68071" />
+              <sampleAssociate sOffset="3.5" leftWidth="1.76205" rightWidth="1.68056" />
+              <sampleAssociate sOffset="4" leftWidth="1.76203" rightWidth="1.68041" />
+              <sampleAssociate sOffset="4.5" leftWidth="1.76201" rightWidth="1.68026" />
+              <sampleAssociate sOffset="5" leftWidth="1.76199" rightWidth="1.68011" />
+              <sampleAssociate sOffset="5.5" leftWidth="1.76197" rightWidth="1.67996" />
+              <sampleAssociate sOffset="6" leftWidth="1.76195" rightWidth="1.67981" />
+              <sampleAssociate sOffset="6.5" leftWidth="1.76193" rightWidth="1.67965" />
+              <sampleAssociate sOffset="7" leftWidth="1.76191" rightWidth="1.6795" />
+              <sampleAssociate sOffset="7.5" leftWidth="1.76189" rightWidth="1.67935" />
+              <sampleAssociate sOffset="8" leftWidth="1.76187" rightWidth="1.6792" />
+              <sampleAssociate sOffset="8.5" leftWidth="1.76185" rightWidth="1.67905" />
+              <sampleAssociate sOffset="9" leftWidth="1.76183" rightWidth="1.6789" />
+              <sampleAssociate sOffset="9.5" leftWidth="1.76181" rightWidth="1.67875" />
+              <sampleAssociate sOffset="10" leftWidth="1.76179" rightWidth="1.6786" />
+              <sampleAssociate sOffset="10.5" leftWidth="1.76176" rightWidth="1.67845" />
+              <sampleAssociate sOffset="11" leftWidth="1.76174" rightWidth="1.6783" />
+              <sampleAssociate sOffset="11.5" leftWidth="1.76172" rightWidth="1.67815" />
+              <sampleAssociate sOffset="12" leftWidth="1.7617" rightWidth="1.678" />
+              <sampleAssociate sOffset="12.5" leftWidth="1.76168" rightWidth="1.67785" />
+              <sampleAssociate sOffset="13" leftWidth="1.76166" rightWidth="1.6777" />
+              <sampleAssociate sOffset="13.5" leftWidth="1.76164" rightWidth="1.67755" />
+              <sampleAssociate sOffset="14" leftWidth="1.76162" rightWidth="1.6774" />
+              <sampleAssociate sOffset="14.5" leftWidth="1.7616" rightWidth="1.67725" />
+              <sampleAssociate sOffset="15" leftWidth="1.76158" rightWidth="1.6771" />
+              <sampleAssociate sOffset="15.5" leftWidth="1.76156" rightWidth="1.67695" />
+              <sampleAssociate sOffset="16" leftWidth="1.76154" rightWidth="1.6768" />
+              <sampleAssociate sOffset="16.5" leftWidth="1.76152" rightWidth="1.67665" />
+              <sampleAssociate sOffset="17" leftWidth="1.7615" rightWidth="1.67649" />
+              <sampleAssociate sOffset="17.5" leftWidth="1.76148" rightWidth="1.67634" />
+              <sampleAssociate sOffset="18" leftWidth="1.76146" rightWidth="1.67619" />
+              <sampleAssociate sOffset="18.5" leftWidth="1.76144" rightWidth="1.67604" />
+              <sampleAssociate sOffset="19" leftWidth="1.76142" rightWidth="1.67589" />
+              <sampleAssociate sOffset="19.5" leftWidth="1.7614" rightWidth="1.67574" />
+              <sampleAssociate sOffset="20" leftWidth="1.76138" rightWidth="1.67559" />
+              <sampleAssociate sOffset="20.5" leftWidth="1.76136" rightWidth="1.67544" />
+              <sampleAssociate sOffset="21" leftWidth="1.76134" rightWidth="1.67529" />
+              <sampleAssociate sOffset="21.5" leftWidth="1.76132" rightWidth="1.67514" />
+              <sampleAssociate sOffset="22" leftWidth="1.7613" rightWidth="1.67499" />
+              <sampleAssociate sOffset="22.5" leftWidth="1.76128" rightWidth="1.67484" />
+              <sampleAssociate sOffset="23" leftWidth="1.76126" rightWidth="1.67469" />
+              <sampleAssociate sOffset="23.5" leftWidth="1.76124" rightWidth="1.67454" />
+              <sampleAssociate sOffset="24" leftWidth="1.76122" rightWidth="1.67439" />
+              <sampleAssociate sOffset="24.5" leftWidth="1.7612" rightWidth="1.67424" />
+              <sampleAssociate sOffset="25" leftWidth="1.76118" rightWidth="1.67409" />
+              <sampleAssociate sOffset="25.5" leftWidth="1.76116" rightWidth="1.67394" />
+              <sampleAssociate sOffset="26" leftWidth="1.76114" rightWidth="1.67379" />
+              <sampleAssociate sOffset="26.5" leftWidth="1.76112" rightWidth="1.67364" />
+              <sampleAssociate sOffset="27" leftWidth="1.7611" rightWidth="1.67349" />
+              <sampleAssociate sOffset="27.5" leftWidth="1.76108" rightWidth="1.67333" />
+              <sampleAssociate sOffset="28" leftWidth="1.76106" rightWidth="1.67318" />
+              <sampleAssociate sOffset="28.5" leftWidth="1.76104" rightWidth="1.67303" />
+              <sampleAssociate sOffset="29" leftWidth="1.76102" rightWidth="1.67288" />
+              <sampleAssociate sOffset="29.5" leftWidth="1.761" rightWidth="1.67273" />
+              <sampleAssociate sOffset="30" leftWidth="1.76098" rightWidth="1.67258" />
+              <sampleAssociate sOffset="30.5" leftWidth="1.76096" rightWidth="1.67243" />
+              <sampleAssociate sOffset="31" leftWidth="1.76094" rightWidth="1.67228" />
+              <sampleAssociate sOffset="31.5" leftWidth="1.76092" rightWidth="1.67213" />
+              <sampleAssociate sOffset="32" leftWidth="1.7609" rightWidth="1.67198" />
+              <sampleAssociate sOffset="32.5" leftWidth="1.76088" rightWidth="1.67183" />
+              <sampleAssociate sOffset="33" leftWidth="1.76086" rightWidth="1.67168" />
+              <sampleAssociate sOffset="33.5" leftWidth="1.76084" rightWidth="1.67153" />
+              <sampleAssociate sOffset="34" leftWidth="1.76082" rightWidth="1.67138" />
+              <sampleAssociate sOffset="34.5" leftWidth="1.7608" rightWidth="1.67123" />
+              <sampleAssociate sOffset="35" leftWidth="1.76078" rightWidth="1.67108" />
+              <sampleAssociate sOffset="35.5" leftWidth="1.76076" rightWidth="1.67093" />
+              <sampleAssociate sOffset="36" leftWidth="1.76074" rightWidth="1.67078" />
+              <sampleAssociate sOffset="36.5" leftWidth="1.76072" rightWidth="1.67063" />
+              <sampleAssociate sOffset="37" leftWidth="1.7607" rightWidth="1.67048" />
+              <sampleAssociate sOffset="37.5" leftWidth="1.76068" rightWidth="1.67033" />
+              <sampleAssociate sOffset="38" leftWidth="1.76066" rightWidth="1.67017" />
+              <sampleAssociate sOffset="38.5" leftWidth="1.76064" rightWidth="1.67002" />
+              <sampleAssociate sOffset="39" leftWidth="1.76062" rightWidth="1.66987" />
+              <sampleAssociate sOffset="39.5" leftWidth="1.7606" rightWidth="1.66972" />
+              <sampleAssociate sOffset="40" leftWidth="1.76058" rightWidth="1.66957" />
+              <sampleAssociate sOffset="40.5" leftWidth="1.76056" rightWidth="1.66942" />
+              <sampleAssociate sOffset="41" leftWidth="1.76054" rightWidth="1.66927" />
+              <sampleAssociate sOffset="41.5" leftWidth="1.76052" rightWidth="1.66912" />
+              <sampleAssociate sOffset="42" leftWidth="1.7605" rightWidth="1.66897" />
+              <sampleAssociate sOffset="42.5" leftWidth="1.76048" rightWidth="1.66882" />
+              <sampleAssociate sOffset="43" leftWidth="1.76046" rightWidth="1.66867" />
+              <sampleAssociate sOffset="43.5" leftWidth="1.76044" rightWidth="1.66852" />
+              <sampleAssociate sOffset="44" leftWidth="1.76042" rightWidth="1.66837" />
+              <sampleAssociate sOffset="44.5" leftWidth="1.7604" rightWidth="1.66822" />
+              <sampleAssociate sOffset="45" leftWidth="1.76038" rightWidth="1.66807" />
+              <sampleAssociate sOffset="45.5" leftWidth="1.76036" rightWidth="1.66792" />
+              <sampleAssociate sOffset="46" leftWidth="1.76034" rightWidth="1.66777" />
+              <sampleAssociate sOffset="46.5" leftWidth="1.76032" rightWidth="1.66762" />
+              <sampleAssociate sOffset="47" leftWidth="1.7603" rightWidth="1.66747" />
+              <sampleAssociate sOffset="47.5" leftWidth="1.76028" rightWidth="1.66732" />
+              <sampleAssociate sOffset="48" leftWidth="1.76026" rightWidth="1.66717" />
+              <sampleAssociate sOffset="48.5" leftWidth="1.76024" rightWidth="1.66702" />
+              <sampleAssociate sOffset="49" leftWidth="1.76022" rightWidth="1.66686" />
+              <sampleAssociate sOffset="49.5" leftWidth="1.7602" rightWidth="1.66671" />
+              <sampleAssociate sOffset="50" leftWidth="1.76018" rightWidth="1.66656" />
+              <sampleAssociate sOffset="50.5" leftWidth="1.76016" rightWidth="1.66641" />
+              <sampleAssociate sOffset="51" leftWidth="1.76014" rightWidth="1.66626" />
+              <sampleAssociate sOffset="51.5" leftWidth="1.76012" rightWidth="1.66611" />
+              <sampleAssociate sOffset="52" leftWidth="1.7601" rightWidth="1.66596" />
+              <sampleAssociate sOffset="52.5" leftWidth="1.76008" rightWidth="1.66581" />
+              <sampleAssociate sOffset="53" leftWidth="1.76006" rightWidth="1.66566" />
+              <sampleAssociate sOffset="53.5" leftWidth="1.76004" rightWidth="1.66551" />
+              <sampleAssociate sOffset="54" leftWidth="1.76002" rightWidth="1.66536" />
+              <sampleAssociate sOffset="54.5" leftWidth="1.76" rightWidth="1.66521" />
+              <sampleAssociate sOffset="55" leftWidth="1.75998" rightWidth="1.66506" />
+              <sampleAssociate sOffset="55.5" leftWidth="1.75996" rightWidth="1.66491" />
+              <sampleAssociate sOffset="56" leftWidth="1.75994" rightWidth="1.66476" />
+              <sampleAssociate sOffset="56.5" leftWidth="1.75992" rightWidth="1.66461" />
+              <sampleAssociate sOffset="57" leftWidth="1.7599" rightWidth="1.66446" />
+              <sampleAssociate sOffset="57.5" leftWidth="1.75988" rightWidth="1.66431" />
+              <sampleAssociate sOffset="58" leftWidth="1.75986" rightWidth="1.66416" />
+              <sampleAssociate sOffset="58.5" leftWidth="1.75984" rightWidth="1.66401" />
+              <sampleAssociate sOffset="59" leftWidth="1.75982" rightWidth="1.66386" />
+              <sampleAssociate sOffset="59.5" leftWidth="1.7598" rightWidth="1.6637" />
+              <sampleAssociate sOffset="60" leftWidth="1.75978" rightWidth="1.66355" />
+              <sampleAssociate sOffset="60.5" leftWidth="1.75976" rightWidth="1.6634" />
+              <sampleAssociate sOffset="61" leftWidth="1.75974" rightWidth="1.66325" />
+              <sampleAssociate sOffset="61.5" leftWidth="1.75972" rightWidth="1.6631" />
+              <sampleAssociate sOffset="62" leftWidth="1.7597" rightWidth="1.66295" />
+              <sampleAssociate sOffset="62.5" leftWidth="1.75968" rightWidth="1.6628" />
+              <sampleAssociate sOffset="63" leftWidth="1.75966" rightWidth="1.66265" />
+              <sampleAssociate sOffset="63.5" leftWidth="1.75964" rightWidth="1.6625" />
+              <sampleAssociate sOffset="64" leftWidth="1.75962" rightWidth="1.66235" />
+              <sampleAssociate sOffset="64.5" leftWidth="1.7596" rightWidth="1.6622" />
+              <sampleAssociate sOffset="65" leftWidth="1.75958" rightWidth="1.66205" />
+              <sampleAssociate sOffset="65.5" leftWidth="1.75956" rightWidth="1.6619" />
+              <sampleAssociate sOffset="66" leftWidth="1.75954" rightWidth="1.66175" />
+              <sampleAssociate sOffset="66.5" leftWidth="1.75952" rightWidth="1.6616" />
+              <sampleAssociate sOffset="67" leftWidth="1.7595" rightWidth="1.66145" />
+              <sampleAssociate sOffset="67.5" leftWidth="1.75948" rightWidth="1.6613" />
+              <sampleAssociate sOffset="68" leftWidth="1.75946" rightWidth="1.66115" />
+              <sampleAssociate sOffset="68.5" leftWidth="1.75944" rightWidth="1.661" />
+              <sampleAssociate sOffset="69" leftWidth="1.75942" rightWidth="1.66085" />
+              <sampleAssociate sOffset="69.5" leftWidth="1.7594" rightWidth="1.6607" />
+              <sampleAssociate sOffset="70" leftWidth="1.75938" rightWidth="1.66054" />
+              <sampleAssociate sOffset="70.5" leftWidth="1.75936" rightWidth="1.66039" />
+              <sampleAssociate sOffset="71" leftWidth="1.75934" rightWidth="1.66024" />
+              <sampleAssociate sOffset="71.5" leftWidth="1.75932" rightWidth="1.66009" />
+              <sampleAssociate sOffset="72" leftWidth="1.7593" rightWidth="1.65994" />
+              <sampleAssociate sOffset="72.5" leftWidth="1.75928" rightWidth="1.65979" />
+              <sampleAssociate sOffset="73" leftWidth="1.75926" rightWidth="1.65964" />
+              <sampleAssociate sOffset="73.5" leftWidth="1.75924" rightWidth="1.65949" />
+              <sampleAssociate sOffset="74" leftWidth="1.75922" rightWidth="1.65934" />
+              <sampleAssociate sOffset="74.5" leftWidth="1.7592" rightWidth="1.65919" />
+              <sampleAssociate sOffset="75" leftWidth="1.75918" rightWidth="1.65904" />
+              <sampleAssociate sOffset="75.5" leftWidth="1.75916" rightWidth="1.65889" />
+              <sampleAssociate sOffset="76" leftWidth="1.75914" rightWidth="1.65874" />
+              <sampleAssociate sOffset="76.5" leftWidth="1.75912" rightWidth="1.65859" />
+              <sampleAssociate sOffset="77" leftWidth="1.7591" rightWidth="1.65844" />
+              <sampleAssociate sOffset="77.5" leftWidth="1.75908" rightWidth="1.65829" />
+              <sampleAssociate sOffset="78" leftWidth="1.75906" rightWidth="1.65814" />
+              <sampleAssociate sOffset="78.5" leftWidth="1.75904" rightWidth="1.65799" />
+              <sampleAssociate sOffset="79" leftWidth="1.75902" rightWidth="1.65784" />
+              <sampleAssociate sOffset="79.5" leftWidth="1.759" rightWidth="1.65769" />
+              <sampleAssociate sOffset="80" leftWidth="1.75898" rightWidth="1.65754" />
+              <sampleAssociate sOffset="80.5" leftWidth="1.75896" rightWidth="1.65738" />
+              <sampleAssociate sOffset="81" leftWidth="1.75894" rightWidth="1.65723" />
+              <sampleAssociate sOffset="81.5" leftWidth="1.75891" rightWidth="1.65708" />
+              <sampleAssociate sOffset="82" leftWidth="1.75889" rightWidth="1.65693" />
+              <sampleAssociate sOffset="82.5" leftWidth="1.75887" rightWidth="1.65678" />
+              <sampleAssociate sOffset="83" leftWidth="1.75885" rightWidth="1.65663" />
+              <sampleAssociate sOffset="83.5" leftWidth="1.75883" rightWidth="1.65648" />
+              <sampleAssociate sOffset="84" leftWidth="1.75881" rightWidth="1.65633" />
+              <sampleAssociate sOffset="84.5" leftWidth="1.75879" rightWidth="1.65618" />
+              <sampleAssociate sOffset="85" leftWidth="1.75877" rightWidth="1.65603" />
+              <sampleAssociate sOffset="85.5" leftWidth="1.75875" rightWidth="1.65588" />
+              <sampleAssociate sOffset="86" leftWidth="1.75873" rightWidth="1.65573" />
+              <sampleAssociate sOffset="86.5" leftWidth="1.75871" rightWidth="1.65558" />
+              <sampleAssociate sOffset="87" leftWidth="1.75869" rightWidth="1.65543" />
+              <sampleAssociate sOffset="87.5" leftWidth="1.75867" rightWidth="1.65528" />
+              <sampleAssociate sOffset="88" leftWidth="1.75865" rightWidth="1.65513" />
+              <sampleAssociate sOffset="88.5" leftWidth="1.75863" rightWidth="1.65498" />
+              <sampleAssociate sOffset="89" leftWidth="1.75861" rightWidth="1.65483" />
+              <sampleAssociate sOffset="89.5" leftWidth="1.75859" rightWidth="1.65468" />
+              <sampleAssociate sOffset="90" leftWidth="1.75857" rightWidth="1.65453" />
+              <sampleAssociate sOffset="90.5" leftWidth="1.75855" rightWidth="1.65438" />
+              <sampleAssociate sOffset="91" leftWidth="1.75853" rightWidth="1.65422" />
+              <sampleAssociate sOffset="91.5" leftWidth="1.75851" rightWidth="1.65407" />
+              <sampleAssociate sOffset="92" leftWidth="1.75849" rightWidth="1.65392" />
+              <sampleAssociate sOffset="92.5" leftWidth="1.75847" rightWidth="1.65377" />
+              <sampleAssociate sOffset="93" leftWidth="1.75845" rightWidth="1.65362" />
+              <sampleAssociate sOffset="93.5" leftWidth="1.75843" rightWidth="1.65347" />
+              <sampleAssociate sOffset="94" leftWidth="1.75841" rightWidth="1.65332" />
+              <sampleAssociate sOffset="94.5" leftWidth="1.75839" rightWidth="1.65317" />
+              <sampleAssociate sOffset="95" leftWidth="1.75837" rightWidth="1.65302" />
+              <sampleAssociate sOffset="95.5" leftWidth="1.75835" rightWidth="1.65287" />
+              <sampleAssociate sOffset="96" leftWidth="1.75833" rightWidth="1.65272" />
+              <sampleAssociate sOffset="96.5" leftWidth="1.75831" rightWidth="1.65257" />
+              <sampleAssociate sOffset="97" leftWidth="1.75829" rightWidth="1.65242" />
+              <sampleAssociate sOffset="97.5" leftWidth="1.75827" rightWidth="1.65227" />
+              <sampleAssociate sOffset="98" leftWidth="1.75825" rightWidth="1.65212" />
+              <sampleAssociate sOffset="98.5" leftWidth="1.75823" rightWidth="1.65197" />
+              <sampleAssociate sOffset="99" leftWidth="1.75821" rightWidth="1.65182" />
+              <sampleAssociate sOffset="99.5" leftWidth="1.75819" rightWidth="1.65167" />
+              <sampleAssociate sOffset="100" leftWidth="1.75817" rightWidth="1.65152" />
+              <sampleAssociate sOffset="100.5" leftWidth="1.75815" rightWidth="1.65137" />
+              <sampleAssociate sOffset="101" leftWidth="1.75813" rightWidth="1.65122" />
+              <sampleAssociate sOffset="101.5" leftWidth="1.75811" rightWidth="1.65107" />
+              <sampleAssociate sOffset="102" leftWidth="1.75809" rightWidth="1.65091" />
+              <sampleAssociate sOffset="102.5" leftWidth="1.75807" rightWidth="1.65076" />
+              <sampleAssociate sOffset="103" leftWidth="1.75805" rightWidth="1.65061" />
+              <sampleAssociate sOffset="103.5" leftWidth="1.75803" rightWidth="1.65046" />
+              <sampleAssociate sOffset="104" leftWidth="1.75801" rightWidth="1.65031" />
+              <sampleAssociate sOffset="104.5" leftWidth="1.75799" rightWidth="1.65016" />
+              <sampleAssociate sOffset="105" leftWidth="1.75797" rightWidth="1.65001" />
+              <sampleAssociate sOffset="105.5" leftWidth="1.75795" rightWidth="1.64986" />
+              <sampleAssociate sOffset="106" leftWidth="1.75793" rightWidth="1.64971" />
+              <sampleAssociate sOffset="106.5" leftWidth="1.75791" rightWidth="1.64956" />
+              <sampleAssociate sOffset="107" leftWidth="1.75789" rightWidth="1.64941" />
+              <sampleAssociate sOffset="107.5" leftWidth="1.75787" rightWidth="1.64926" />
+              <sampleAssociate sOffset="108" leftWidth="1.75785" rightWidth="1.64911" />
+              <sampleAssociate sOffset="108.5" leftWidth="1.75783" rightWidth="1.64896" />
+              <sampleAssociate sOffset="109" leftWidth="1.75781" rightWidth="1.64881" />
+              <sampleAssociate sOffset="109.5" leftWidth="1.75779" rightWidth="1.64866" />
+              <sampleAssociate sOffset="110" leftWidth="1.75777" rightWidth="1.64851" />
+              <sampleAssociate sOffset="110.5" leftWidth="1.75775" rightWidth="1.64836" />
+              <sampleAssociate sOffset="111" leftWidth="1.75773" rightWidth="1.64821" />
+              <sampleAssociate sOffset="111.5" leftWidth="1.75771" rightWidth="1.64806" />
+              <sampleAssociate sOffset="112" leftWidth="1.75769" rightWidth="1.64791" />
+              <sampleAssociate sOffset="112.5" leftWidth="1.75767" rightWidth="1.64775" />
+              <sampleAssociate sOffset="113" leftWidth="1.75765" rightWidth="1.6476" />
+              <sampleAssociate sOffset="113.5" leftWidth="1.75763" rightWidth="1.64745" />
+              <sampleAssociate sOffset="114" leftWidth="1.75761" rightWidth="1.6473" />
+              <sampleAssociate sOffset="114.5" leftWidth="1.75759" rightWidth="1.64715" />
+              <sampleAssociate sOffset="115" leftWidth="1.75757" rightWidth="1.647" />
+              <sampleAssociate sOffset="115.5" leftWidth="1.75755" rightWidth="1.64685" />
+              <sampleAssociate sOffset="116" leftWidth="1.75753" rightWidth="1.6467" />
+              <sampleAssociate sOffset="116.5" leftWidth="1.75751" rightWidth="1.64655" />
+              <sampleAssociate sOffset="117" leftWidth="1.75749" rightWidth="1.6464" />
+              <sampleAssociate sOffset="117.5" leftWidth="1.75747" rightWidth="1.64625" />
+              <sampleAssociate sOffset="118" leftWidth="1.75745" rightWidth="1.6461" />
+              <sampleAssociate sOffset="118.5" leftWidth="1.75743" rightWidth="1.64595" />
+              <sampleAssociate sOffset="119" leftWidth="1.75741" rightWidth="1.6458" />
+              <sampleAssociate sOffset="119.5" leftWidth="1.75739" rightWidth="1.64565" />
+              <sampleAssociate sOffset="120" leftWidth="1.75737" rightWidth="1.6455" />
+              <sampleAssociate sOffset="120.5" leftWidth="1.75735" rightWidth="1.64535" />
+              <sampleAssociate sOffset="121" leftWidth="1.75733" rightWidth="1.6452" />
+              <sampleAssociate sOffset="121.5" leftWidth="1.75731" rightWidth="1.64505" />
+              <sampleAssociate sOffset="122" leftWidth="1.75729" rightWidth="1.6449" />
+              <sampleAssociate sOffset="122.5" leftWidth="1.75727" rightWidth="1.64475" />
+              <sampleAssociate sOffset="123" leftWidth="1.75725" rightWidth="1.64459" />
+              <sampleAssociate sOffset="123.5" leftWidth="1.75723" rightWidth="1.64444" />
+              <sampleAssociate sOffset="124" leftWidth="1.75721" rightWidth="1.64429" />
+              <sampleAssociate sOffset="124.5" leftWidth="1.75719" rightWidth="1.64414" />
+              <sampleAssociate sOffset="125" leftWidth="1.75717" rightWidth="1.64399" />
+              <sampleAssociate sOffset="125.5" leftWidth="1.75715" rightWidth="1.64384" />
+              <sampleAssociate sOffset="126" leftWidth="1.75713" rightWidth="1.64369" />
+              <sampleAssociate sOffset="126.5" leftWidth="1.75711" rightWidth="1.64354" />
+              <sampleAssociate sOffset="127" leftWidth="1.75709" rightWidth="1.64339" />
+              <sampleAssociate sOffset="127.5" leftWidth="1.75707" rightWidth="1.64324" />
+              <sampleAssociate sOffset="128" leftWidth="1.75705" rightWidth="1.64309" />
+              <sampleAssociate sOffset="128.5" leftWidth="1.75703" rightWidth="1.64294" />
+              <sampleAssociate sOffset="129" leftWidth="1.75701" rightWidth="1.64279" />
+              <sampleAssociate sOffset="129.5" leftWidth="1.75699" rightWidth="1.64264" />
+              <sampleAssociate sOffset="130" leftWidth="1.75697" rightWidth="1.64249" />
+              <sampleAssociate sOffset="130.5" leftWidth="1.75695" rightWidth="1.64234" />
+              <sampleAssociate sOffset="131" leftWidth="1.75693" rightWidth="1.64219" />
+              <sampleAssociate sOffset="131.5" leftWidth="1.75691" rightWidth="1.64204" />
+              <sampleAssociate sOffset="132" leftWidth="1.75689" rightWidth="1.64189" />
+              <sampleAssociate sOffset="132.5" leftWidth="1.75687" rightWidth="1.64174" />
+              <sampleAssociate sOffset="133" leftWidth="1.75685" rightWidth="1.64159" />
+              <sampleAssociate sOffset="133.5" leftWidth="1.75683" rightWidth="1.64143" />
+              <sampleAssociate sOffset="134" leftWidth="1.75681" rightWidth="1.64128" />
+              <sampleAssociate sOffset="134.5" leftWidth="1.75679" rightWidth="1.64113" />
+              <sampleAssociate sOffset="135" leftWidth="1.75677" rightWidth="1.64098" />
+              <sampleAssociate sOffset="135.5" leftWidth="1.75675" rightWidth="1.64083" />
+              <sampleAssociate sOffset="136" leftWidth="1.75673" rightWidth="1.64068" />
+              <sampleAssociate sOffset="136.5" leftWidth="1.75671" rightWidth="1.64053" />
+              <sampleAssociate sOffset="137" leftWidth="1.75669" rightWidth="1.64038" />
+              <sampleAssociate sOffset="137.5" leftWidth="1.75667" rightWidth="1.64023" />
+              <sampleAssociate sOffset="138" leftWidth="1.75665" rightWidth="1.64008" />
+              <sampleAssociate sOffset="138.5" leftWidth="1.75663" rightWidth="1.63993" />
+              <sampleAssociate sOffset="139" leftWidth="1.75661" rightWidth="1.63978" />
+              <sampleAssociate sOffset="139.5" leftWidth="1.75659" rightWidth="1.63963" />
+              <sampleAssociate sOffset="140" leftWidth="1.75657" rightWidth="1.63948" />
+              <sampleAssociate sOffset="140.5" leftWidth="1.75655" rightWidth="1.63933" />
+              <sampleAssociate sOffset="141" leftWidth="1.75653" rightWidth="1.63918" />
+              <sampleAssociate sOffset="141.5" leftWidth="1.75651" rightWidth="1.63903" />
+              <sampleAssociate sOffset="142" leftWidth="1.75649" rightWidth="1.63888" />
+              <sampleAssociate sOffset="142.5" leftWidth="1.75647" rightWidth="1.63873" />
+              <sampleAssociate sOffset="143" leftWidth="1.75645" rightWidth="1.63858" />
+              <sampleAssociate sOffset="143.5" leftWidth="1.75643" rightWidth="1.63843" />
+              <sampleAssociate sOffset="144" leftWidth="1.75641" rightWidth="1.63828" />
+              <sampleAssociate sOffset="144.5" leftWidth="1.75639" rightWidth="1.63812" />
+              <sampleAssociate sOffset="145" leftWidth="1.75637" rightWidth="1.63797" />
+              <sampleAssociate sOffset="145.5" leftWidth="1.75635" rightWidth="1.63782" />
+              <sampleAssociate sOffset="146" leftWidth="1.75633" rightWidth="1.63767" />
+              <sampleAssociate sOffset="146.5" leftWidth="1.75631" rightWidth="1.63752" />
+              <sampleAssociate sOffset="147" leftWidth="1.75629" rightWidth="1.63737" />
+              <sampleAssociate sOffset="147.5" leftWidth="1.75627" rightWidth="1.63722" />
+              <sampleAssociate sOffset="148" leftWidth="1.75625" rightWidth="1.63707" />
+              <sampleAssociate sOffset="148.5" leftWidth="1.75623" rightWidth="1.63692" />
+              <sampleAssociate sOffset="149" leftWidth="1.75621" rightWidth="1.63677" />
+              <sampleAssociate sOffset="149.5" leftWidth="1.75619" rightWidth="1.63662" />
+              <sampleAssociate sOffset="150" leftWidth="1.75617" rightWidth="1.63647" />
+              <sampleAssociate sOffset="150.5" leftWidth="1.75615" rightWidth="1.63632" />
+              <sampleAssociate sOffset="151" leftWidth="1.75613" rightWidth="1.63617" />
+              <sampleAssociate sOffset="151.5" leftWidth="1.75611" rightWidth="1.63602" />
+              <sampleAssociate sOffset="152" leftWidth="1.75609" rightWidth="1.63587" />
+              <sampleAssociate sOffset="152.5" leftWidth="1.75607" rightWidth="1.63572" />
+              <sampleAssociate sOffset="153" leftWidth="1.75604" rightWidth="1.63557" />
+              <sampleAssociate sOffset="153.5" leftWidth="1.75602" rightWidth="1.63542" />
+              <sampleAssociate sOffset="154" leftWidth="1.756" rightWidth="1.63527" />
+              <sampleAssociate sOffset="154.5" leftWidth="1.75598" rightWidth="1.63512" />
+              <sampleAssociate sOffset="155" leftWidth="1.75596" rightWidth="1.63496" />
+              <sampleAssociate sOffset="155.5" leftWidth="1.75594" rightWidth="1.63481" />
+              <sampleAssociate sOffset="156" leftWidth="1.75592" rightWidth="1.63466" />
+              <sampleAssociate sOffset="156.5" leftWidth="1.7559" rightWidth="1.63451" />
+              <sampleAssociate sOffset="157" leftWidth="1.75588" rightWidth="1.63436" />
+              <sampleAssociate sOffset="157.5" leftWidth="1.75586" rightWidth="1.63421" />
+              <sampleAssociate sOffset="158" leftWidth="1.75584" rightWidth="1.63406" />
+              <sampleAssociate sOffset="158.5" leftWidth="1.75582" rightWidth="1.63391" />
+              <sampleAssociate sOffset="159" leftWidth="1.7558" rightWidth="1.63376" />
+              <sampleAssociate sOffset="159.5" leftWidth="1.75578" rightWidth="1.63361" />
+              <sampleAssociate sOffset="160" leftWidth="1.75576" rightWidth="1.63346" />
+              <sampleAssociate sOffset="160.5" leftWidth="1.75574" rightWidth="1.63331" />
+              <sampleAssociate sOffset="161" leftWidth="1.75572" rightWidth="1.63316" />
+              <sampleAssociate sOffset="161.5" leftWidth="1.7557" rightWidth="1.63301" />
+              <sampleAssociate sOffset="162" leftWidth="1.75568" rightWidth="1.63286" />
+              <sampleAssociate sOffset="162.5" leftWidth="1.75566" rightWidth="1.63271" />
+              <sampleAssociate sOffset="163" leftWidth="1.75564" rightWidth="1.63256" />
+              <sampleAssociate sOffset="163.5" leftWidth="1.75562" rightWidth="1.63241" />
+              <sampleAssociate sOffset="164" leftWidth="1.7556" rightWidth="1.63226" />
+              <sampleAssociate sOffset="164.5" leftWidth="1.75558" rightWidth="1.63211" />
+              <sampleAssociate sOffset="165" leftWidth="1.75556" rightWidth="1.63196" />
+              <sampleAssociate sOffset="165.5" leftWidth="1.75554" rightWidth="1.6318" />
+              <sampleAssociate sOffset="166" leftWidth="1.75552" rightWidth="1.63165" />
+              <sampleAssociate sOffset="166.5" leftWidth="1.7555" rightWidth="1.6315" />
+              <sampleAssociate sOffset="167" leftWidth="1.75548" rightWidth="1.63135" />
+              <sampleAssociate sOffset="167.5" leftWidth="1.75546" rightWidth="1.6312" />
+              <sampleAssociate sOffset="168" leftWidth="1.75544" rightWidth="1.63105" />
+              <sampleAssociate sOffset="168.5" leftWidth="1.75542" rightWidth="1.6309" />
+              <sampleAssociate sOffset="169" leftWidth="1.7554" rightWidth="1.63075" />
+              <sampleAssociate sOffset="169.5" leftWidth="1.75538" rightWidth="1.6306" />
+              <sampleAssociate sOffset="170" leftWidth="1.75536" rightWidth="1.63045" />
+              <sampleAssociate sOffset="170.5" leftWidth="1.75534" rightWidth="1.6303" />
+              <sampleAssociate sOffset="171" leftWidth="1.75532" rightWidth="1.63015" />
+              <sampleAssociate sOffset="171.5" leftWidth="1.7553" rightWidth="1.63" />
+              <sampleAssociate sOffset="172" leftWidth="1.75528" rightWidth="1.62985" />
+              <sampleAssociate sOffset="172.5" leftWidth="1.75526" rightWidth="1.6297" />
+              <sampleAssociate sOffset="173" leftWidth="1.75524" rightWidth="1.62955" />
+              <sampleAssociate sOffset="173.5" leftWidth="1.75522" rightWidth="1.6294" />
+              <sampleAssociate sOffset="174" leftWidth="1.7552" rightWidth="1.62925" />
+              <sampleAssociate sOffset="174.5" leftWidth="1.75518" rightWidth="1.6291" />
+              <sampleAssociate sOffset="175" leftWidth="1.75516" rightWidth="1.62895" />
+              <sampleAssociate sOffset="175.5" leftWidth="1.75514" rightWidth="1.6288" />
+              <sampleAssociate sOffset="176" leftWidth="1.75512" rightWidth="1.62864" />
+              <sampleAssociate sOffset="176.5" leftWidth="1.7551" rightWidth="1.62849" />
+              <sampleAssociate sOffset="177" leftWidth="1.75508" rightWidth="1.62834" />
+              <sampleAssociate sOffset="177.5" leftWidth="1.75506" rightWidth="1.62819" />
+              <sampleAssociate sOffset="178" leftWidth="1.75504" rightWidth="1.62804" />
+              <sampleAssociate sOffset="178.5" leftWidth="1.75502" rightWidth="1.62789" />
+              <sampleAssociate sOffset="179" leftWidth="1.755" rightWidth="1.62774" />
+              <sampleAssociate sOffset="179.5" leftWidth="1.75498" rightWidth="1.62759" />
+              <sampleAssociate sOffset="180" leftWidth="1.75496" rightWidth="1.62744" />
+              <sampleAssociate sOffset="180.5" leftWidth="1.75494" rightWidth="1.62729" />
+              <sampleAssociate sOffset="181" leftWidth="1.75492" rightWidth="1.62714" />
+              <sampleAssociate sOffset="181.5" leftWidth="1.7549" rightWidth="1.62699" />
+              <sampleAssociate sOffset="182" leftWidth="1.75488" rightWidth="1.62684" />
+              <sampleAssociate sOffset="182.5" leftWidth="1.75486" rightWidth="1.62669" />
+              <sampleAssociate sOffset="183" leftWidth="1.75484" rightWidth="1.62654" />
+              <sampleAssociate sOffset="183.5" leftWidth="1.75482" rightWidth="1.62639" />
+              <sampleAssociate sOffset="184" leftWidth="1.7548" rightWidth="1.62624" />
+              <sampleAssociate sOffset="184.5" leftWidth="1.75478" rightWidth="1.62609" />
+              <sampleAssociate sOffset="185" leftWidth="1.75476" rightWidth="1.62594" />
+              <sampleAssociate sOffset="185.5" leftWidth="1.75474" rightWidth="1.62579" />
+              <sampleAssociate sOffset="186" leftWidth="1.75472" rightWidth="1.62564" />
+              <sampleAssociate sOffset="186.5" leftWidth="1.7547" rightWidth="1.62548" />
+              <sampleAssociate sOffset="187" leftWidth="1.75468" rightWidth="1.62533" />
+              <sampleAssociate sOffset="187.5" leftWidth="1.75466" rightWidth="1.62518" />
+              <sampleAssociate sOffset="188" leftWidth="1.75464" rightWidth="1.62503" />
+              <sampleAssociate sOffset="188.5" leftWidth="1.75462" rightWidth="1.62488" />
+              <sampleAssociate sOffset="189" leftWidth="1.7546" rightWidth="1.62473" />
+              <sampleAssociate sOffset="189.5" leftWidth="1.75458" rightWidth="1.62458" />
+              <sampleAssociate sOffset="190" leftWidth="1.75456" rightWidth="1.62443" />
+              <sampleAssociate sOffset="190.5" leftWidth="1.75454" rightWidth="1.62428" />
+              <sampleAssociate sOffset="191" leftWidth="1.75452" rightWidth="1.62413" />
+              <sampleAssociate sOffset="191.5" leftWidth="1.7545" rightWidth="1.62398" />
+              <sampleAssociate sOffset="192" leftWidth="1.75448" rightWidth="1.62383" />
+              <sampleAssociate sOffset="192.5" leftWidth="1.75446" rightWidth="1.62368" />
+              <sampleAssociate sOffset="193" leftWidth="1.75444" rightWidth="1.62353" />
+              <sampleAssociate sOffset="193.5" leftWidth="1.75442" rightWidth="1.62338" />
+              <sampleAssociate sOffset="194" leftWidth="1.7544" rightWidth="1.62323" />
+              <sampleAssociate sOffset="194.5" leftWidth="1.75438" rightWidth="1.62308" />
+              <sampleAssociate sOffset="195" leftWidth="1.75436" rightWidth="1.62293" />
+              <sampleAssociate sOffset="195.5" leftWidth="1.75434" rightWidth="1.62278" />
+              <sampleAssociate sOffset="196" leftWidth="1.75432" rightWidth="1.62263" />
+              <sampleAssociate sOffset="196.5" leftWidth="1.7543" rightWidth="1.62248" />
+            </sampleAssociates>
+            <roadSampleAssociations>
+              <sampleAssociation sOffset="0" leftWidth="4.85436" rightWidth="1.68164" />
+              <sampleAssociation sOffset="0.5" leftWidth="4.85272" rightWidth="1.68146" />
+              <sampleAssociation sOffset="1" leftWidth="4.85328" rightWidth="1.68131" />
+              <sampleAssociation sOffset="1.5" leftWidth="4.85385" rightWidth="1.68116" />
+              <sampleAssociation sOffset="2" leftWidth="4.85441" rightWidth="1.68101" />
+              <sampleAssociation sOffset="2.5" leftWidth="4.85498" rightWidth="1.68086" />
+              <sampleAssociation sOffset="3" leftWidth="4.85554" rightWidth="1.68071" />
+              <sampleAssociation sOffset="3.5" leftWidth="4.8561" rightWidth="1.68056" />
+              <sampleAssociation sOffset="4" leftWidth="4.85667" rightWidth="1.68041" />
+              <sampleAssociation sOffset="4.5" leftWidth="4.85723" rightWidth="1.68026" />
+              <sampleAssociation sOffset="5" leftWidth="4.85779" rightWidth="1.68011" />
+              <sampleAssociation sOffset="5.5" leftWidth="4.85836" rightWidth="1.67996" />
+              <sampleAssociation sOffset="6" leftWidth="4.85892" rightWidth="1.67981" />
+              <sampleAssociation sOffset="6.5" leftWidth="4.85948" rightWidth="1.67965" />
+              <sampleAssociation sOffset="7" leftWidth="4.86005" rightWidth="1.6795" />
+              <sampleAssociation sOffset="7.5" leftWidth="4.86061" rightWidth="1.67935" />
+              <sampleAssociation sOffset="8" leftWidth="4.86117" rightWidth="1.6792" />
+              <sampleAssociation sOffset="8.5" leftWidth="4.86174" rightWidth="1.67905" />
+              <sampleAssociation sOffset="9" leftWidth="4.8623" rightWidth="1.6789" />
+              <sampleAssociation sOffset="9.5" leftWidth="4.86286" rightWidth="1.67875" />
+              <sampleAssociation sOffset="10" leftWidth="4.86343" rightWidth="1.6786" />
+              <sampleAssociation sOffset="10.5" leftWidth="4.86399" rightWidth="1.67845" />
+              <sampleAssociation sOffset="11" leftWidth="4.86455" rightWidth="1.6783" />
+              <sampleAssociation sOffset="11.5" leftWidth="4.86512" rightWidth="1.67815" />
+              <sampleAssociation sOffset="12" leftWidth="4.86568" rightWidth="1.678" />
+              <sampleAssociation sOffset="12.5" leftWidth="4.86624" rightWidth="1.67785" />
+              <sampleAssociation sOffset="13" leftWidth="4.86681" rightWidth="1.6777" />
+              <sampleAssociation sOffset="13.5" leftWidth="4.86737" rightWidth="1.67755" />
+              <sampleAssociation sOffset="14" leftWidth="4.86793" rightWidth="1.6774" />
+              <sampleAssociation sOffset="14.5" leftWidth="4.8685" rightWidth="1.67725" />
+              <sampleAssociation sOffset="15" leftWidth="4.86906" rightWidth="1.6771" />
+              <sampleAssociation sOffset="15.5" leftWidth="4.86962" rightWidth="1.67695" />
+              <sampleAssociation sOffset="16" leftWidth="4.87019" rightWidth="1.6768" />
+              <sampleAssociation sOffset="16.5" leftWidth="4.87075" rightWidth="1.67665" />
+              <sampleAssociation sOffset="17" leftWidth="4.87131" rightWidth="1.67649" />
+              <sampleAssociation sOffset="17.5" leftWidth="4.87188" rightWidth="1.67634" />
+              <sampleAssociation sOffset="18" leftWidth="4.87244" rightWidth="1.67619" />
+              <sampleAssociation sOffset="18.5" leftWidth="4.873" rightWidth="1.67604" />
+              <sampleAssociation sOffset="19" leftWidth="4.87357" rightWidth="1.67589" />
+              <sampleAssociation sOffset="19.5" leftWidth="4.87413" rightWidth="1.67574" />
+              <sampleAssociation sOffset="20" leftWidth="4.87469" rightWidth="1.67559" />
+              <sampleAssociation sOffset="20.5" leftWidth="4.87526" rightWidth="1.67544" />
+              <sampleAssociation sOffset="21" leftWidth="4.87582" rightWidth="1.67529" />
+              <sampleAssociation sOffset="21.5" leftWidth="4.87638" rightWidth="1.67514" />
+              <sampleAssociation sOffset="22" leftWidth="4.87695" rightWidth="1.67499" />
+              <sampleAssociation sOffset="22.5" leftWidth="4.87751" rightWidth="1.67484" />
+              <sampleAssociation sOffset="23" leftWidth="4.87807" rightWidth="1.67469" />
+              <sampleAssociation sOffset="23.5" leftWidth="4.87864" rightWidth="1.67454" />
+              <sampleAssociation sOffset="24" leftWidth="4.8792" rightWidth="1.67439" />
+              <sampleAssociation sOffset="24.5" leftWidth="4.87976" rightWidth="1.67424" />
+              <sampleAssociation sOffset="25" leftWidth="4.88033" rightWidth="1.67409" />
+              <sampleAssociation sOffset="25.5" leftWidth="4.88089" rightWidth="1.67394" />
+              <sampleAssociation sOffset="26" leftWidth="4.88145" rightWidth="1.67379" />
+              <sampleAssociation sOffset="26.5" leftWidth="4.88202" rightWidth="1.67364" />
+              <sampleAssociation sOffset="27" leftWidth="4.88258" rightWidth="1.67349" />
+              <sampleAssociation sOffset="27.5" leftWidth="4.88315" rightWidth="1.67333" />
+              <sampleAssociation sOffset="28" leftWidth="4.88371" rightWidth="1.67318" />
+              <sampleAssociation sOffset="28.5" leftWidth="4.88427" rightWidth="1.67303" />
+              <sampleAssociation sOffset="29" leftWidth="4.88484" rightWidth="1.67288" />
+              <sampleAssociation sOffset="29.5" leftWidth="4.8854" rightWidth="1.67273" />
+              <sampleAssociation sOffset="30" leftWidth="4.88596" rightWidth="1.67258" />
+              <sampleAssociation sOffset="30.5" leftWidth="4.88653" rightWidth="1.67243" />
+              <sampleAssociation sOffset="31" leftWidth="4.88709" rightWidth="1.67228" />
+              <sampleAssociation sOffset="31.5" leftWidth="4.88765" rightWidth="1.67213" />
+              <sampleAssociation sOffset="32" leftWidth="4.88822" rightWidth="1.67198" />
+              <sampleAssociation sOffset="32.5" leftWidth="4.88878" rightWidth="1.67183" />
+              <sampleAssociation sOffset="33" leftWidth="4.88934" rightWidth="1.67168" />
+              <sampleAssociation sOffset="33.5" leftWidth="4.88991" rightWidth="1.67153" />
+              <sampleAssociation sOffset="34" leftWidth="4.89047" rightWidth="1.67138" />
+              <sampleAssociation sOffset="34.5" leftWidth="4.89103" rightWidth="1.67123" />
+              <sampleAssociation sOffset="35" leftWidth="4.8916" rightWidth="1.67108" />
+              <sampleAssociation sOffset="35.5" leftWidth="4.89216" rightWidth="1.67093" />
+              <sampleAssociation sOffset="36" leftWidth="4.89272" rightWidth="1.67078" />
+              <sampleAssociation sOffset="36.5" leftWidth="4.89329" rightWidth="1.67063" />
+              <sampleAssociation sOffset="37" leftWidth="4.89385" rightWidth="1.67048" />
+              <sampleAssociation sOffset="37.5" leftWidth="4.89441" rightWidth="1.67033" />
+              <sampleAssociation sOffset="38" leftWidth="4.89498" rightWidth="1.67017" />
+              <sampleAssociation sOffset="38.5" leftWidth="4.89554" rightWidth="1.67002" />
+              <sampleAssociation sOffset="39" leftWidth="4.8961" rightWidth="1.66987" />
+              <sampleAssociation sOffset="39.5" leftWidth="4.89667" rightWidth="1.66972" />
+              <sampleAssociation sOffset="40" leftWidth="4.89723" rightWidth="1.66957" />
+              <sampleAssociation sOffset="40.5" leftWidth="4.89779" rightWidth="1.66942" />
+              <sampleAssociation sOffset="41" leftWidth="4.89836" rightWidth="1.66927" />
+              <sampleAssociation sOffset="41.5" leftWidth="4.89892" rightWidth="1.66912" />
+              <sampleAssociation sOffset="42" leftWidth="4.89948" rightWidth="1.66897" />
+              <sampleAssociation sOffset="42.5" leftWidth="4.90005" rightWidth="1.66882" />
+              <sampleAssociation sOffset="43" leftWidth="4.90061" rightWidth="1.66867" />
+              <sampleAssociation sOffset="43.5" leftWidth="4.90117" rightWidth="1.66852" />
+              <sampleAssociation sOffset="44" leftWidth="4.90174" rightWidth="1.66837" />
+              <sampleAssociation sOffset="44.5" leftWidth="4.9023" rightWidth="1.66822" />
+              <sampleAssociation sOffset="45" leftWidth="4.90286" rightWidth="1.66807" />
+              <sampleAssociation sOffset="45.5" leftWidth="4.90343" rightWidth="1.66792" />
+              <sampleAssociation sOffset="46" leftWidth="4.90399" rightWidth="1.66777" />
+              <sampleAssociation sOffset="46.5" leftWidth="4.90455" rightWidth="1.66762" />
+              <sampleAssociation sOffset="47" leftWidth="4.90512" rightWidth="1.66747" />
+              <sampleAssociation sOffset="47.5" leftWidth="4.90568" rightWidth="1.66732" />
+              <sampleAssociation sOffset="48" leftWidth="4.90624" rightWidth="1.66717" />
+              <sampleAssociation sOffset="48.5" leftWidth="4.90681" rightWidth="1.66702" />
+              <sampleAssociation sOffset="49" leftWidth="4.90737" rightWidth="1.66686" />
+              <sampleAssociation sOffset="49.5" leftWidth="4.90793" rightWidth="1.66671" />
+              <sampleAssociation sOffset="50" leftWidth="4.9085" rightWidth="1.66656" />
+              <sampleAssociation sOffset="50.5" leftWidth="4.90906" rightWidth="1.66641" />
+              <sampleAssociation sOffset="51" leftWidth="4.90962" rightWidth="1.66626" />
+              <sampleAssociation sOffset="51.5" leftWidth="4.91019" rightWidth="1.66611" />
+              <sampleAssociation sOffset="52" leftWidth="4.91075" rightWidth="1.66596" />
+              <sampleAssociation sOffset="52.5" leftWidth="4.91132" rightWidth="1.66581" />
+              <sampleAssociation sOffset="53" leftWidth="4.91188" rightWidth="1.66566" />
+              <sampleAssociation sOffset="53.5" leftWidth="4.91244" rightWidth="1.66551" />
+              <sampleAssociation sOffset="54" leftWidth="4.91301" rightWidth="1.66536" />
+              <sampleAssociation sOffset="54.5" leftWidth="4.91357" rightWidth="1.66521" />
+              <sampleAssociation sOffset="55" leftWidth="4.91413" rightWidth="1.66506" />
+              <sampleAssociation sOffset="55.5" leftWidth="4.9147" rightWidth="1.66491" />
+              <sampleAssociation sOffset="56" leftWidth="4.91526" rightWidth="1.66476" />
+              <sampleAssociation sOffset="56.5" leftWidth="4.91582" rightWidth="1.66461" />
+              <sampleAssociation sOffset="57" leftWidth="4.91639" rightWidth="1.66446" />
+              <sampleAssociation sOffset="57.5" leftWidth="4.91695" rightWidth="1.66431" />
+              <sampleAssociation sOffset="58" leftWidth="4.91751" rightWidth="1.66416" />
+              <sampleAssociation sOffset="58.5" leftWidth="4.91808" rightWidth="1.66401" />
+              <sampleAssociation sOffset="59" leftWidth="4.91864" rightWidth="1.66386" />
+              <sampleAssociation sOffset="59.5" leftWidth="4.9192" rightWidth="1.6637" />
+              <sampleAssociation sOffset="60" leftWidth="4.91977" rightWidth="1.66355" />
+              <sampleAssociation sOffset="60.5" leftWidth="4.92033" rightWidth="1.6634" />
+              <sampleAssociation sOffset="61" leftWidth="4.92089" rightWidth="1.66325" />
+              <sampleAssociation sOffset="61.5" leftWidth="4.92146" rightWidth="1.6631" />
+              <sampleAssociation sOffset="62" leftWidth="4.92202" rightWidth="1.66295" />
+              <sampleAssociation sOffset="62.5" leftWidth="4.92258" rightWidth="1.6628" />
+              <sampleAssociation sOffset="63" leftWidth="4.92315" rightWidth="1.66265" />
+              <sampleAssociation sOffset="63.5" leftWidth="4.92371" rightWidth="1.6625" />
+              <sampleAssociation sOffset="64" leftWidth="4.92427" rightWidth="1.66235" />
+              <sampleAssociation sOffset="64.5" leftWidth="4.92484" rightWidth="1.6622" />
+              <sampleAssociation sOffset="65" leftWidth="4.9254" rightWidth="1.66205" />
+              <sampleAssociation sOffset="65.5" leftWidth="4.92596" rightWidth="1.6619" />
+              <sampleAssociation sOffset="66" leftWidth="4.92653" rightWidth="1.66175" />
+              <sampleAssociation sOffset="66.5" leftWidth="4.92709" rightWidth="1.6616" />
+              <sampleAssociation sOffset="67" leftWidth="4.92765" rightWidth="1.66145" />
+              <sampleAssociation sOffset="67.5" leftWidth="4.92822" rightWidth="1.6613" />
+              <sampleAssociation sOffset="68" leftWidth="4.92878" rightWidth="1.66115" />
+              <sampleAssociation sOffset="68.5" leftWidth="4.92934" rightWidth="1.661" />
+              <sampleAssociation sOffset="69" leftWidth="4.92991" rightWidth="1.66085" />
+              <sampleAssociation sOffset="69.5" leftWidth="4.93047" rightWidth="1.6607" />
+              <sampleAssociation sOffset="70" leftWidth="4.93103" rightWidth="1.66054" />
+              <sampleAssociation sOffset="70.5" leftWidth="4.9316" rightWidth="1.66039" />
+              <sampleAssociation sOffset="71" leftWidth="4.93216" rightWidth="1.66024" />
+              <sampleAssociation sOffset="71.5" leftWidth="4.93272" rightWidth="1.66009" />
+              <sampleAssociation sOffset="72" leftWidth="4.93329" rightWidth="1.65994" />
+              <sampleAssociation sOffset="72.5" leftWidth="4.93385" rightWidth="1.65979" />
+              <sampleAssociation sOffset="73" leftWidth="4.93441" rightWidth="1.65964" />
+              <sampleAssociation sOffset="73.5" leftWidth="4.93498" rightWidth="1.65949" />
+              <sampleAssociation sOffset="74" leftWidth="4.93554" rightWidth="1.65934" />
+              <sampleAssociation sOffset="74.5" leftWidth="4.9361" rightWidth="1.65919" />
+              <sampleAssociation sOffset="75" leftWidth="4.93667" rightWidth="1.65904" />
+              <sampleAssociation sOffset="75.5" leftWidth="4.93723" rightWidth="1.65889" />
+              <sampleAssociation sOffset="76" leftWidth="4.93779" rightWidth="1.65874" />
+              <sampleAssociation sOffset="76.5" leftWidth="4.93836" rightWidth="1.65859" />
+              <sampleAssociation sOffset="77" leftWidth="4.93892" rightWidth="1.65844" />
+              <sampleAssociation sOffset="77.5" leftWidth="4.93949" rightWidth="1.65829" />
+              <sampleAssociation sOffset="78" leftWidth="4.94005" rightWidth="1.65814" />
+              <sampleAssociation sOffset="78.5" leftWidth="4.94061" rightWidth="1.65799" />
+              <sampleAssociation sOffset="79" leftWidth="4.94118" rightWidth="1.65784" />
+              <sampleAssociation sOffset="79.5" leftWidth="4.94174" rightWidth="1.65769" />
+              <sampleAssociation sOffset="80" leftWidth="4.9423" rightWidth="1.65754" />
+              <sampleAssociation sOffset="80.5" leftWidth="4.94287" rightWidth="1.65738" />
+              <sampleAssociation sOffset="81" leftWidth="4.94343" rightWidth="1.65723" />
+              <sampleAssociation sOffset="81.5" leftWidth="4.94399" rightWidth="1.65708" />
+              <sampleAssociation sOffset="82" leftWidth="4.94456" rightWidth="1.65693" />
+              <sampleAssociation sOffset="82.5" leftWidth="4.94512" rightWidth="1.65678" />
+              <sampleAssociation sOffset="83" leftWidth="4.94568" rightWidth="1.65663" />
+              <sampleAssociation sOffset="83.5" leftWidth="4.94625" rightWidth="1.65648" />
+              <sampleAssociation sOffset="84" leftWidth="4.94681" rightWidth="1.65633" />
+              <sampleAssociation sOffset="84.5" leftWidth="4.94737" rightWidth="1.65618" />
+              <sampleAssociation sOffset="85" leftWidth="4.94794" rightWidth="1.65603" />
+              <sampleAssociation sOffset="85.5" leftWidth="4.9485" rightWidth="1.65588" />
+              <sampleAssociation sOffset="86" leftWidth="4.94906" rightWidth="1.65573" />
+              <sampleAssociation sOffset="86.5" leftWidth="4.94963" rightWidth="1.65558" />
+              <sampleAssociation sOffset="87" leftWidth="4.95019" rightWidth="1.65543" />
+              <sampleAssociation sOffset="87.5" leftWidth="4.95075" rightWidth="1.65528" />
+              <sampleAssociation sOffset="88" leftWidth="4.95132" rightWidth="1.65513" />
+              <sampleAssociation sOffset="88.5" leftWidth="4.95188" rightWidth="1.65498" />
+              <sampleAssociation sOffset="89" leftWidth="4.95244" rightWidth="1.65483" />
+              <sampleAssociation sOffset="89.5" leftWidth="4.95301" rightWidth="1.65468" />
+              <sampleAssociation sOffset="90" leftWidth="4.95357" rightWidth="1.65453" />
+              <sampleAssociation sOffset="90.5" leftWidth="4.95413" rightWidth="1.65438" />
+              <sampleAssociation sOffset="91" leftWidth="4.9547" rightWidth="1.65422" />
+              <sampleAssociation sOffset="91.5" leftWidth="4.95526" rightWidth="1.65407" />
+              <sampleAssociation sOffset="92" leftWidth="4.95582" rightWidth="1.65392" />
+              <sampleAssociation sOffset="92.5" leftWidth="4.95639" rightWidth="1.65377" />
+              <sampleAssociation sOffset="93" leftWidth="4.95695" rightWidth="1.65362" />
+              <sampleAssociation sOffset="93.5" leftWidth="4.95751" rightWidth="1.65347" />
+              <sampleAssociation sOffset="94" leftWidth="4.95808" rightWidth="1.65332" />
+              <sampleAssociation sOffset="94.5" leftWidth="4.95864" rightWidth="1.65317" />
+              <sampleAssociation sOffset="95" leftWidth="4.9592" rightWidth="1.65302" />
+              <sampleAssociation sOffset="95.5" leftWidth="4.95977" rightWidth="1.65287" />
+              <sampleAssociation sOffset="96" leftWidth="4.96033" rightWidth="1.65272" />
+              <sampleAssociation sOffset="96.5" leftWidth="4.96089" rightWidth="1.65257" />
+              <sampleAssociation sOffset="97" leftWidth="4.96146" rightWidth="1.65242" />
+              <sampleAssociation sOffset="97.5" leftWidth="4.96202" rightWidth="1.65227" />
+              <sampleAssociation sOffset="98" leftWidth="4.96258" rightWidth="1.65212" />
+              <sampleAssociation sOffset="98.5" leftWidth="4.96315" rightWidth="1.65197" />
+              <sampleAssociation sOffset="99" leftWidth="4.96371" rightWidth="1.65182" />
+              <sampleAssociation sOffset="99.5" leftWidth="4.96427" rightWidth="1.65167" />
+              <sampleAssociation sOffset="100" leftWidth="4.96484" rightWidth="1.65152" />
+              <sampleAssociation sOffset="100.5" leftWidth="4.9654" rightWidth="1.65137" />
+              <sampleAssociation sOffset="101" leftWidth="4.96596" rightWidth="1.65122" />
+              <sampleAssociation sOffset="101.5" leftWidth="4.96653" rightWidth="1.65107" />
+              <sampleAssociation sOffset="102" leftWidth="4.96709" rightWidth="1.65091" />
+              <sampleAssociation sOffset="102.5" leftWidth="4.96766" rightWidth="1.65076" />
+              <sampleAssociation sOffset="103" leftWidth="4.96822" rightWidth="1.65061" />
+              <sampleAssociation sOffset="103.5" leftWidth="4.96878" rightWidth="1.65046" />
+              <sampleAssociation sOffset="104" leftWidth="4.96935" rightWidth="1.65031" />
+              <sampleAssociation sOffset="104.5" leftWidth="4.96991" rightWidth="1.65016" />
+              <sampleAssociation sOffset="105" leftWidth="4.97047" rightWidth="1.65001" />
+              <sampleAssociation sOffset="105.5" leftWidth="4.97104" rightWidth="1.64986" />
+              <sampleAssociation sOffset="106" leftWidth="4.9716" rightWidth="1.64971" />
+              <sampleAssociation sOffset="106.5" leftWidth="4.97216" rightWidth="1.64956" />
+              <sampleAssociation sOffset="107" leftWidth="4.97273" rightWidth="1.64941" />
+              <sampleAssociation sOffset="107.5" leftWidth="4.97329" rightWidth="1.64926" />
+              <sampleAssociation sOffset="108" leftWidth="4.97385" rightWidth="1.64911" />
+              <sampleAssociation sOffset="108.5" leftWidth="4.97442" rightWidth="1.64896" />
+              <sampleAssociation sOffset="109" leftWidth="4.97498" rightWidth="1.64881" />
+              <sampleAssociation sOffset="109.5" leftWidth="4.97554" rightWidth="1.64866" />
+              <sampleAssociation sOffset="110" leftWidth="4.97611" rightWidth="1.64851" />
+              <sampleAssociation sOffset="110.5" leftWidth="4.97667" rightWidth="1.64836" />
+              <sampleAssociation sOffset="111" leftWidth="4.97723" rightWidth="1.64821" />
+              <sampleAssociation sOffset="111.5" leftWidth="4.9778" rightWidth="1.64806" />
+              <sampleAssociation sOffset="112" leftWidth="4.97836" rightWidth="1.64791" />
+              <sampleAssociation sOffset="112.5" leftWidth="4.97892" rightWidth="1.64775" />
+              <sampleAssociation sOffset="113" leftWidth="4.97949" rightWidth="1.6476" />
+              <sampleAssociation sOffset="113.5" leftWidth="4.98005" rightWidth="1.64745" />
+              <sampleAssociation sOffset="114" leftWidth="4.98061" rightWidth="1.6473" />
+              <sampleAssociation sOffset="114.5" leftWidth="4.98118" rightWidth="1.64715" />
+              <sampleAssociation sOffset="115" leftWidth="4.98174" rightWidth="1.647" />
+              <sampleAssociation sOffset="115.5" leftWidth="4.9823" rightWidth="1.64685" />
+              <sampleAssociation sOffset="116" leftWidth="4.98287" rightWidth="1.6467" />
+              <sampleAssociation sOffset="116.5" leftWidth="4.98343" rightWidth="1.64655" />
+              <sampleAssociation sOffset="117" leftWidth="4.98399" rightWidth="1.6464" />
+              <sampleAssociation sOffset="117.5" leftWidth="4.98456" rightWidth="1.64625" />
+              <sampleAssociation sOffset="118" leftWidth="4.98512" rightWidth="1.6461" />
+              <sampleAssociation sOffset="118.5" leftWidth="4.98568" rightWidth="1.64595" />
+              <sampleAssociation sOffset="119" leftWidth="4.98625" rightWidth="1.6458" />
+              <sampleAssociation sOffset="119.5" leftWidth="4.98681" rightWidth="1.64565" />
+              <sampleAssociation sOffset="120" leftWidth="4.98737" rightWidth="1.6455" />
+              <sampleAssociation sOffset="120.5" leftWidth="4.98794" rightWidth="1.64535" />
+              <sampleAssociation sOffset="121" leftWidth="4.9885" rightWidth="1.6452" />
+              <sampleAssociation sOffset="121.5" leftWidth="4.98906" rightWidth="1.64505" />
+              <sampleAssociation sOffset="122" leftWidth="4.98963" rightWidth="1.6449" />
+              <sampleAssociation sOffset="122.5" leftWidth="4.99019" rightWidth="1.64475" />
+              <sampleAssociation sOffset="123" leftWidth="4.99075" rightWidth="1.64459" />
+              <sampleAssociation sOffset="123.5" leftWidth="4.99132" rightWidth="1.64444" />
+              <sampleAssociation sOffset="124" leftWidth="4.99188" rightWidth="1.64429" />
+              <sampleAssociation sOffset="124.5" leftWidth="4.99244" rightWidth="1.64414" />
+              <sampleAssociation sOffset="125" leftWidth="4.99301" rightWidth="1.64399" />
+              <sampleAssociation sOffset="125.5" leftWidth="4.99357" rightWidth="1.64384" />
+              <sampleAssociation sOffset="126" leftWidth="4.99413" rightWidth="1.64369" />
+              <sampleAssociation sOffset="126.5" leftWidth="4.9947" rightWidth="1.64354" />
+              <sampleAssociation sOffset="127" leftWidth="4.99526" rightWidth="1.64339" />
+              <sampleAssociation sOffset="127.5" leftWidth="4.99583" rightWidth="1.64324" />
+              <sampleAssociation sOffset="128" leftWidth="4.99639" rightWidth="1.64309" />
+              <sampleAssociation sOffset="128.5" leftWidth="4.99695" rightWidth="1.64294" />
+              <sampleAssociation sOffset="129" leftWidth="4.99752" rightWidth="1.64279" />
+              <sampleAssociation sOffset="129.5" leftWidth="4.99808" rightWidth="1.64264" />
+              <sampleAssociation sOffset="130" leftWidth="4.99864" rightWidth="1.64249" />
+              <sampleAssociation sOffset="130.5" leftWidth="4.99921" rightWidth="1.64234" />
+              <sampleAssociation sOffset="131" leftWidth="4.99977" rightWidth="1.64219" />
+              <sampleAssociation sOffset="131.5" leftWidth="5.00033" rightWidth="1.64204" />
+              <sampleAssociation sOffset="132" leftWidth="5.0009" rightWidth="1.64189" />
+              <sampleAssociation sOffset="132.5" leftWidth="5.00146" rightWidth="1.64174" />
+              <sampleAssociation sOffset="133" leftWidth="5.00202" rightWidth="1.64159" />
+              <sampleAssociation sOffset="133.5" leftWidth="5.00259" rightWidth="1.64143" />
+              <sampleAssociation sOffset="134" leftWidth="5.00315" rightWidth="1.64128" />
+              <sampleAssociation sOffset="134.5" leftWidth="5.00371" rightWidth="1.64113" />
+              <sampleAssociation sOffset="135" leftWidth="5.00428" rightWidth="1.64098" />
+              <sampleAssociation sOffset="135.5" leftWidth="5.00484" rightWidth="1.64083" />
+              <sampleAssociation sOffset="136" leftWidth="5.0054" rightWidth="1.64068" />
+              <sampleAssociation sOffset="136.5" leftWidth="5.00597" rightWidth="1.64053" />
+              <sampleAssociation sOffset="137" leftWidth="5.00653" rightWidth="1.64038" />
+              <sampleAssociation sOffset="137.5" leftWidth="5.00709" rightWidth="1.64023" />
+              <sampleAssociation sOffset="138" leftWidth="5.00766" rightWidth="1.64008" />
+              <sampleAssociation sOffset="138.5" leftWidth="5.00822" rightWidth="1.63993" />
+              <sampleAssociation sOffset="139" leftWidth="5.00878" rightWidth="1.63978" />
+              <sampleAssociation sOffset="139.5" leftWidth="5.00935" rightWidth="1.63963" />
+              <sampleAssociation sOffset="140" leftWidth="5.00991" rightWidth="1.63948" />
+              <sampleAssociation sOffset="140.5" leftWidth="5.01047" rightWidth="1.63933" />
+              <sampleAssociation sOffset="141" leftWidth="5.01104" rightWidth="1.63918" />
+              <sampleAssociation sOffset="141.5" leftWidth="5.0116" rightWidth="1.63903" />
+              <sampleAssociation sOffset="142" leftWidth="5.01216" rightWidth="1.63888" />
+              <sampleAssociation sOffset="142.5" leftWidth="5.01273" rightWidth="1.63873" />
+              <sampleAssociation sOffset="143" leftWidth="5.01329" rightWidth="1.63858" />
+              <sampleAssociation sOffset="143.5" leftWidth="5.01385" rightWidth="1.63843" />
+              <sampleAssociation sOffset="144" leftWidth="5.01442" rightWidth="1.63828" />
+              <sampleAssociation sOffset="144.5" leftWidth="5.01498" rightWidth="1.63812" />
+              <sampleAssociation sOffset="145" leftWidth="5.01554" rightWidth="1.63797" />
+              <sampleAssociation sOffset="145.5" leftWidth="5.01611" rightWidth="1.63782" />
+              <sampleAssociation sOffset="146" leftWidth="5.01667" rightWidth="1.63767" />
+              <sampleAssociation sOffset="146.5" leftWidth="5.01723" rightWidth="1.63752" />
+              <sampleAssociation sOffset="147" leftWidth="5.0178" rightWidth="1.63737" />
+              <sampleAssociation sOffset="147.5" leftWidth="5.01836" rightWidth="1.63722" />
+              <sampleAssociation sOffset="148" leftWidth="5.01892" rightWidth="1.63707" />
+              <sampleAssociation sOffset="148.5" leftWidth="5.01949" rightWidth="1.63692" />
+              <sampleAssociation sOffset="149" leftWidth="5.02005" rightWidth="1.63677" />
+              <sampleAssociation sOffset="149.5" leftWidth="5.02061" rightWidth="1.63662" />
+              <sampleAssociation sOffset="150" leftWidth="5.02118" rightWidth="1.63647" />
+              <sampleAssociation sOffset="150.5" leftWidth="5.02174" rightWidth="1.63632" />
+              <sampleAssociation sOffset="151" leftWidth="5.02231" rightWidth="1.63617" />
+              <sampleAssociation sOffset="151.5" leftWidth="5.02287" rightWidth="1.63602" />
+              <sampleAssociation sOffset="152" leftWidth="5.02343" rightWidth="1.63587" />
+              <sampleAssociation sOffset="152.5" leftWidth="5.024" rightWidth="1.63572" />
+              <sampleAssociation sOffset="153" leftWidth="5.02456" rightWidth="1.63557" />
+              <sampleAssociation sOffset="153.5" leftWidth="5.02512" rightWidth="1.63542" />
+              <sampleAssociation sOffset="154" leftWidth="5.02569" rightWidth="1.63527" />
+              <sampleAssociation sOffset="154.5" leftWidth="5.02625" rightWidth="1.63512" />
+              <sampleAssociation sOffset="155" leftWidth="5.02681" rightWidth="1.63496" />
+              <sampleAssociation sOffset="155.5" leftWidth="5.02738" rightWidth="1.63481" />
+              <sampleAssociation sOffset="156" leftWidth="5.02794" rightWidth="1.63466" />
+              <sampleAssociation sOffset="156.5" leftWidth="5.0285" rightWidth="1.63451" />
+              <sampleAssociation sOffset="157" leftWidth="5.02907" rightWidth="1.63436" />
+              <sampleAssociation sOffset="157.5" leftWidth="5.02963" rightWidth="1.63421" />
+              <sampleAssociation sOffset="158" leftWidth="5.03019" rightWidth="1.63406" />
+              <sampleAssociation sOffset="158.5" leftWidth="5.03076" rightWidth="1.63391" />
+              <sampleAssociation sOffset="159" leftWidth="5.03132" rightWidth="1.63376" />
+              <sampleAssociation sOffset="159.5" leftWidth="5.03188" rightWidth="1.63361" />
+              <sampleAssociation sOffset="160" leftWidth="5.03245" rightWidth="1.63346" />
+              <sampleAssociation sOffset="160.5" leftWidth="5.03301" rightWidth="1.63331" />
+              <sampleAssociation sOffset="161" leftWidth="5.03357" rightWidth="1.63316" />
+              <sampleAssociation sOffset="161.5" leftWidth="5.03414" rightWidth="1.63301" />
+              <sampleAssociation sOffset="162" leftWidth="5.0347" rightWidth="1.63286" />
+              <sampleAssociation sOffset="162.5" leftWidth="5.03526" rightWidth="1.63271" />
+              <sampleAssociation sOffset="163" leftWidth="5.03583" rightWidth="1.63256" />
+              <sampleAssociation sOffset="163.5" leftWidth="5.03639" rightWidth="1.63241" />
+              <sampleAssociation sOffset="164" leftWidth="5.03695" rightWidth="1.63226" />
+              <sampleAssociation sOffset="164.5" leftWidth="5.03752" rightWidth="1.63211" />
+              <sampleAssociation sOffset="165" leftWidth="5.03808" rightWidth="1.63196" />
+              <sampleAssociation sOffset="165.5" leftWidth="5.03864" rightWidth="1.6318" />
+              <sampleAssociation sOffset="166" leftWidth="5.03921" rightWidth="1.63165" />
+              <sampleAssociation sOffset="166.5" leftWidth="5.03977" rightWidth="1.6315" />
+              <sampleAssociation sOffset="167" leftWidth="5.04033" rightWidth="1.63135" />
+              <sampleAssociation sOffset="167.5" leftWidth="5.0409" rightWidth="1.6312" />
+              <sampleAssociation sOffset="168" leftWidth="5.04146" rightWidth="1.63105" />
+              <sampleAssociation sOffset="168.5" leftWidth="5.04202" rightWidth="1.6309" />
+              <sampleAssociation sOffset="169" leftWidth="5.04259" rightWidth="1.63075" />
+              <sampleAssociation sOffset="169.5" leftWidth="5.04315" rightWidth="1.6306" />
+              <sampleAssociation sOffset="170" leftWidth="5.04371" rightWidth="1.63045" />
+              <sampleAssociation sOffset="170.5" leftWidth="5.04428" rightWidth="1.6303" />
+              <sampleAssociation sOffset="171" leftWidth="5.04484" rightWidth="1.63015" />
+              <sampleAssociation sOffset="171.5" leftWidth="5.0454" rightWidth="1.63" />
+              <sampleAssociation sOffset="172" leftWidth="5.04597" rightWidth="1.62985" />
+              <sampleAssociation sOffset="172.5" leftWidth="5.04653" rightWidth="1.6297" />
+              <sampleAssociation sOffset="173" leftWidth="5.04709" rightWidth="1.62955" />
+              <sampleAssociation sOffset="173.5" leftWidth="5.04766" rightWidth="1.6294" />
+              <sampleAssociation sOffset="174" leftWidth="5.04822" rightWidth="1.62925" />
+              <sampleAssociation sOffset="174.5" leftWidth="5.04878" rightWidth="1.6291" />
+              <sampleAssociation sOffset="175" leftWidth="5.04935" rightWidth="1.62895" />
+              <sampleAssociation sOffset="175.5" leftWidth="5.04991" rightWidth="1.6288" />
+              <sampleAssociation sOffset="176" leftWidth="5.05048" rightWidth="1.62864" />
+              <sampleAssociation sOffset="176.5" leftWidth="5.05104" rightWidth="1.62849" />
+              <sampleAssociation sOffset="177" leftWidth="5.0516" rightWidth="1.62834" />
+              <sampleAssociation sOffset="177.5" leftWidth="5.05217" rightWidth="1.62819" />
+              <sampleAssociation sOffset="178" leftWidth="5.05273" rightWidth="1.62804" />
+              <sampleAssociation sOffset="178.5" leftWidth="5.05329" rightWidth="1.62789" />
+              <sampleAssociation sOffset="179" leftWidth="5.05386" rightWidth="1.62774" />
+              <sampleAssociation sOffset="179.5" leftWidth="5.05442" rightWidth="1.62759" />
+              <sampleAssociation sOffset="180" leftWidth="5.05498" rightWidth="1.62744" />
+              <sampleAssociation sOffset="180.5" leftWidth="5.05555" rightWidth="1.62729" />
+              <sampleAssociation sOffset="181" leftWidth="5.05611" rightWidth="1.62714" />
+              <sampleAssociation sOffset="181.5" leftWidth="5.05667" rightWidth="1.62699" />
+              <sampleAssociation sOffset="182" leftWidth="5.05724" rightWidth="1.62684" />
+              <sampleAssociation sOffset="182.5" leftWidth="5.0578" rightWidth="1.62669" />
+              <sampleAssociation sOffset="183" leftWidth="5.05836" rightWidth="1.62654" />
+              <sampleAssociation sOffset="183.5" leftWidth="5.05893" rightWidth="1.62639" />
+              <sampleAssociation sOffset="184" leftWidth="5.05949" rightWidth="1.62624" />
+              <sampleAssociation sOffset="184.5" leftWidth="5.06005" rightWidth="1.62609" />
+              <sampleAssociation sOffset="185" leftWidth="5.06062" rightWidth="1.62594" />
+              <sampleAssociation sOffset="185.5" leftWidth="5.06118" rightWidth="1.62579" />
+              <sampleAssociation sOffset="186" leftWidth="5.06174" rightWidth="1.62564" />
+              <sampleAssociation sOffset="186.5" leftWidth="5.06231" rightWidth="1.62548" />
+              <sampleAssociation sOffset="187" leftWidth="5.06287" rightWidth="1.62533" />
+              <sampleAssociation sOffset="187.5" leftWidth="5.06343" rightWidth="1.62518" />
+              <sampleAssociation sOffset="188" leftWidth="5.064" rightWidth="1.62503" />
+              <sampleAssociation sOffset="188.5" leftWidth="5.06456" rightWidth="1.62488" />
+              <sampleAssociation sOffset="189" leftWidth="5.06512" rightWidth="1.62473" />
+              <sampleAssociation sOffset="189.5" leftWidth="5.06569" rightWidth="1.62458" />
+              <sampleAssociation sOffset="190" leftWidth="5.06625" rightWidth="1.62443" />
+              <sampleAssociation sOffset="190.5" leftWidth="5.06681" rightWidth="1.62428" />
+              <sampleAssociation sOffset="191" leftWidth="5.06738" rightWidth="1.62413" />
+              <sampleAssociation sOffset="191.5" leftWidth="5.06794" rightWidth="1.62398" />
+              <sampleAssociation sOffset="192" leftWidth="5.0685" rightWidth="1.62383" />
+              <sampleAssociation sOffset="192.5" leftWidth="5.06907" rightWidth="1.62368" />
+              <sampleAssociation sOffset="193" leftWidth="5.06963" rightWidth="1.62353" />
+              <sampleAssociation sOffset="193.5" leftWidth="5.07019" rightWidth="1.62338" />
+              <sampleAssociation sOffset="194" leftWidth="5.07076" rightWidth="1.62323" />
+              <sampleAssociation sOffset="194.5" leftWidth="5.07132" rightWidth="1.62308" />
+              <sampleAssociation sOffset="195" leftWidth="5.07188" rightWidth="1.62293" />
+              <sampleAssociation sOffset="195.5" leftWidth="5.07245" rightWidth="1.62278" />
+              <sampleAssociation sOffset="196" leftWidth="5.07301" rightWidth="1.62263" />
+              <sampleAssociation sOffset="196.5" leftWidth="5.07357" rightWidth="1.62248" />
+            </roadSampleAssociations>
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+  </road>
+  <junction id="30000000">
+    <outline>
+      <cornerGlobal x="3.731240077e+01" y="5.634964910e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731244509e+01" y="5.634964967e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731244563e+01" y="5.634967176e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731245189e+01" y="5.634968945e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731246096e+01" y="5.634969986e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731247035e+01" y="5.634970766e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731248569e+01" y="5.634971408e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731250696e+01" y="5.634971931e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731253236e+01" y="5.634972231e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731257230e+01" y="5.634972268e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731257065e+01" y="5.634975012e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731253055e+01" y="5.634974969e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731250009e+01" y="5.634974704e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731247004e+01" y="5.634974287e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731244441e+01" y="5.634973417e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731242771e+01" y="5.634972465e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731241477e+01" y="5.634971149e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731241194e+01" y="5.634970555e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731241152e+01" y="5.634970593e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731238455e+01" y="5.634971560e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731235327e+01" y="5.634972078e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731231414e+01" y="5.634972256e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731228268e+01" y="5.634972229e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731228204e+01" y="5.634969783e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731231120e+01" y="5.634969783e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731234120e+01" y="5.634969483e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731236328e+01" y="5.634968998e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731238070e+01" y="5.634968139e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731239029e+01" y="5.634967212e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731239776e+01" y="5.634966194e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731240077e+01" y="5.634964910e+01" z="0.000000000e+00" />
+    </outline>
+    <connection id="0" incomingRoad="34" connectingRoad="18" contactPoint="start">
+      <laneLink from="10000070" to="10000036" />
+    </connection>
+    <connection id="1" incomingRoad="64" connectingRoad="42" contactPoint="start">
+      <laneLink from="10000145" to="10000091" />
+    </connection>
+  </junction>
+  <junction id="30000001">
+    <outline>
+      <cornerGlobal x="3.731244995e+01" y="5.634927548e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731245128e+01" y="5.634918257e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731240046e+01" y="5.634918262e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731240044e+01" y="5.634930257e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731238484e+01" y="5.634929483e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731235219e+01" y="5.634928781e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731230021e+01" y="5.634928356e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731229341e+01" y="5.634930952e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731232892e+01" y="5.634931773e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731235162e+01" y="5.634932396e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731236409e+01" y="5.634932756e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731237127e+01" y="5.634933124e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731237804e+01" y="5.634933737e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731238892e+01" y="5.634935040e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731239460e+01" y="5.634936809e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731240042e+01" y="5.634939635e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731245065e+01" y="5.634939861e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731245029e+01" y="5.634936296e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731245997e+01" y="5.634933477e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731247029e+01" y="5.634931365e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731249127e+01" y="5.634929669e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731252742e+01" y="5.634927953e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731255433e+01" y="5.634927232e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731258419e+01" y="5.634926770e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731262661e+01" y="5.634926353e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731276545e+01" y="5.634926439e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731276547e+01" y="5.634923881e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731259271e+01" y="5.634923692e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731255669e+01" y="5.634923962e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731252922e+01" y="5.634924403e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731249949e+01" y="5.634925251e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731247504e+01" y="5.634926236e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731245239e+01" y="5.634927365e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731244995e+01" y="5.634927548e+01" z="0.000000000e+00" />
+    </outline>
+    <connection id="0" incomingRoad="2" connectingRoad="16" contactPoint="start">
+      <laneLink from="10000004" to="10000032" />
+    </connection>
+    <connection id="1" incomingRoad="2" connectingRoad="43" contactPoint="start">
+      <laneLink from="10000004" to="10000093" />
+    </connection>
+    <connection id="2" incomingRoad="2" connectingRoad="17" contactPoint="start">
+      <laneLink from="10000004" to="10000034" />
+    </connection>
+  </junction>
+  <junction id="30000002">
+    <outline>
+      <cornerGlobal x="3.731234975e+01" y="5.634869759e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731260401e+01" y="5.634866817e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731263487e+01" y="5.634866729e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731277219e+01" y="5.634866730e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731276988e+01" y="5.634869521e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731271062e+01" y="5.634874106e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731267578e+01" y="5.634876691e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731237316e+01" y="5.634875827e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731236068e+01" y="5.634872923e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731234975e+01" y="5.634869759e+01" z="0.000000000e+00" />
+    </outline>
+    <connection id="0" incomingRoad="25" connectingRoad="8" contactPoint="start">
+      <laneLink from="10000050" to="10000016" />
+    </connection>
+    <connection id="1" incomingRoad="13" connectingRoad="9" contactPoint="start">
+      <laneLink from="10000026" to="10000018" />
+    </connection>
+  </junction>
+  <junction id="30000003">
+    <outline>
+      <cornerGlobal x="3.731276988e+01" y="5.634869521e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731277219e+01" y="5.634866730e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731282777e+01" y="5.634866787e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731287963e+01" y="5.634866913e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731288630e+01" y="5.634870545e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731286471e+01" y="5.634870907e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731284737e+01" y="5.634871498e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731283246e+01" y="5.634872286e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731282109e+01" y="5.634872973e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731281030e+01" y="5.634873766e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731279578e+01" y="5.634874888e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731277804e+01" y="5.634876849e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731272950e+01" y="5.634873991e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731275837e+01" y="5.634871463e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731277927e+01" y="5.634870191e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731278958e+01" y="5.634869656e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731276988e+01" y="5.634869521e+01" z="0.000000000e+00" />
+    </outline>
+    <connection id="0" incomingRoad="9" connectingRoad="22" contactPoint="start">
+      <laneLink from="10000018" to="10000043" />
+    </connection>
+  </junction>
+  <junction id="30000004">
+    <outline>
+      <cornerGlobal x="3.731305785e+01" y="5.634882210e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731304552e+01" y="5.634883547e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731303157e+01" y="5.634884480e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731300946e+01" y="5.634885503e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731298838e+01" y="5.634886226e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731296556e+01" y="5.634886796e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731292694e+01" y="5.634887285e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731290476e+01" y="5.634887142e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731289960e+01" y="5.634890699e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731292070e+01" y="5.634890994e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731294067e+01" y="5.634891409e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731294780e+01" y="5.634891662e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731295768e+01" y="5.634892106e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731297034e+01" y="5.634892831e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731301231e+01" y="5.634890703e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731300081e+01" y="5.634889792e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731301722e+01" y="5.634889321e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731304234e+01" y="5.634888408e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731306150e+01" y="5.634887565e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731307609e+01" y="5.634886850e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731305785e+01" y="5.634882210e+01" z="0.000000000e+00" />
+    </outline>
+  </junction>
+  <junction id="30000005">
+    <outline>
+      <cornerGlobal x="3.731380780e+01" y="5.634796430e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731380914e+01" y="5.634796424e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731381923e+01" y="5.634799053e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731383547e+01" y="5.634802254e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731378525e+01" y="5.634802757e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731374375e+01" y="5.634803214e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731370782e+01" y="5.634803956e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731367020e+01" y="5.634804807e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731363947e+01" y="5.634805555e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731360961e+01" y="5.634806549e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731358213e+01" y="5.634807710e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731355843e+01" y="5.634809175e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731354014e+01" y="5.634810621e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731353190e+01" y="5.634812303e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731353060e+01" y="5.634813858e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731347889e+01" y="5.634813871e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731341887e+01" y="5.634813806e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731342083e+01" y="5.634812014e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731342857e+01" y="5.634809488e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731344552e+01" y="5.634806994e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731346703e+01" y="5.634805117e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731349045e+01" y="5.634803680e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731353329e+01" y="5.634801795e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731356255e+01" y="5.634800607e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731358127e+01" y="5.634800035e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731349872e+01" y="5.634800376e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731349836e+01" y="5.634797818e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731375603e+01" y="5.634796662e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731376179e+01" y="5.634796602e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731380780e+01" y="5.634796430e+01" z="0.000000000e+00" />
+    </outline>
+    <connection id="0" incomingRoad="30" connectingRoad="60" contactPoint="start">
+      <laneLink from="10000061" to="10000136" />
+    </connection>
+    <connection id="1" incomingRoad="51" connectingRoad="61" contactPoint="start">
+      <laneLink from="10000115" to="10000138" />
+      <laneLink from="10000116" to="10000139" />
+    </connection>
+  </junction>
+  <junction id="30000006">
+    <outline>
+      <cornerGlobal x="3.731171718e+01" y="5.634871820e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731175956e+01" y="5.634874040e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731179218e+01" y="5.634876410e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731175638e+01" y="5.634878999e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731172524e+01" y="5.634881669e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731169304e+01" y="5.634884670e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731167597e+01" y="5.634886797e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731165560e+01" y="5.634889558e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731164068e+01" y="5.634893040e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731162986e+01" y="5.634904540e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731155338e+01" y="5.634923435e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731150477e+01" y="5.634922987e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731153920e+01" y="5.634890272e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731155029e+01" y="5.634887889e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731156404e+01" y="5.634885481e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731157692e+01" y="5.634883782e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731159330e+01" y="5.634881967e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731160838e+01" y="5.634880148e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731163676e+01" y="5.634877593e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731166470e+01" y="5.634875332e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731171718e+01" y="5.634871820e+01" z="0.000000000e+00" />
+    </outline>
+    <connection id="0" incomingRoad="26" connectingRoad="53" contactPoint="start">
+      <laneLink from="10000052" to="10000119" />
+      <laneLink from="10000012" to="10000119" />
+      <laneLink from="10000052" to="10000120" />
+      <laneLink from="10000012" to="10000120" />
+    </connection>
+    <connection id="1" incomingRoad="6" connectingRoad="53" contactPoint="start">
+      <laneLink from="10000052" to="10000119" />
+      <laneLink from="10000012" to="10000119" />
+      <laneLink from="10000052" to="10000120" />
+      <laneLink from="10000012" to="10000120" />
+    </connection>
+    <connection id="2" incomingRoad="6" connectingRoad="10" contactPoint="start">
+      <laneLink from="10000053" to="10000020" />
+      <laneLink from="10000012" to="10000021" />
+      <laneLink from="10000052" to="10000021" />
+    </connection>
+    <connection id="3" incomingRoad="26" connectingRoad="10" contactPoint="start">
+      <laneLink from="10000053" to="10000020" />
+      <laneLink from="10000012" to="10000021" />
+      <laneLink from="10000052" to="10000021" />
+    </connection>
+  </junction>
+  <junction id="30000007">
+    <outline>
+      <cornerGlobal x="3.731210979e+01" y="5.634850532e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731215212e+01" y="5.634852944e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731218217e+01" y="5.634854831e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731204618e+01" y="5.634862534e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731203383e+01" y="5.634863279e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731202796e+01" y="5.634864295e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731202602e+01" y="5.634865255e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731202957e+01" y="5.634866054e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731203688e+01" y="5.634866668e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731198254e+01" y="5.634868689e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731195609e+01" y="5.634867456e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731191620e+01" y="5.634869635e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731194762e+01" y="5.634869678e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731198499e+01" y="5.634870158e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731202595e+01" y="5.634870848e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731206278e+01" y="5.634871649e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731208938e+01" y="5.634872374e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731212614e+01" y="5.634874170e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731209139e+01" y="5.634876305e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731205982e+01" y="5.634874744e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731202868e+01" y="5.634873927e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731198806e+01" y="5.634873219e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731195069e+01" y="5.634872751e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731191166e+01" y="5.634872697e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731188876e+01" y="5.634872830e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731185872e+01" y="5.634873280e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731183097e+01" y="5.634874367e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731179218e+01" y="5.634876410e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731175956e+01" y="5.634874040e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731171718e+01" y="5.634871820e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731186459e+01" y="5.634863819e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731184212e+01" y="5.634863331e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731181327e+01" y="5.634863189e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731179326e+01" y="5.634863646e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731172033e+01" y="5.634867511e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731167711e+01" y="5.634865316e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731163881e+01" y="5.634862902e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731188019e+01" y="5.634849923e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731192175e+01" y="5.634851907e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731196893e+01" y="5.634854338e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731186442e+01" y="5.634859876e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731188504e+01" y="5.634860158e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731190756e+01" y="5.634860909e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731191378e+01" y="5.634861149e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731210979e+01" y="5.634850532e+01" z="0.000000000e+00" />
+    </outline>
+    <connection id="0" incomingRoad="32" connectingRoad="26" contactPoint="start">
+      <laneLink from="10000065" to="10000053" />
+      <laneLink from="10000066" to="10000052" />
+    </connection>
+    <connection id="1" incomingRoad="32" connectingRoad="27" contactPoint="start">
+      <laneLink from="10000066" to="10000055" />
+    </connection>
+    <connection id="2" incomingRoad="38" connectingRoad="12" contactPoint="start">
+      <laneLink from="10000076" to="10000024" />
+    </connection>
+    <connection id="3" incomingRoad="38" connectingRoad="39" contactPoint="start">
+      <laneLink from="10000076" to="10000078" />
+      <laneLink from="10000080" to="10000079" />
+    </connection>
+    <connection id="4" incomingRoad="14" connectingRoad="6" contactPoint="start">
+      <laneLink from="10000028" to="10000012" />
+    </connection>
+  </junction>
+  <junction id="30000008">
+    <outline>
+      <cornerGlobal x="3.731273039e+01" y="5.634970816e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731301414e+01" y="5.634933497e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731307052e+01" y="5.634933782e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731311853e+01" y="5.634934558e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731309443e+01" y="5.634940360e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731307638e+01" y="5.634944286e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731304751e+01" y="5.634949067e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731300789e+01" y="5.634954522e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731295926e+01" y="5.634959711e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731290943e+01" y="5.634964581e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731288443e+01" y="5.634966569e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731285621e+01" y="5.634968512e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731282356e+01" y="5.634970411e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731279520e+01" y="5.634971822e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731275286e+01" y="5.634973546e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731273039e+01" y="5.634970816e+01" z="0.000000000e+00" />
+    </outline>
+    <connection id="0" incomingRoad="29" connectingRoad="40" contactPoint="start">
+      <laneLink from="10000060" to="10000086" />
+    </connection>
+    <connection id="1" incomingRoad="66" connectingRoad="40" contactPoint="start">
+      <laneLink from="10000060" to="10000086" />
+    </connection>
+    <connection id="2" incomingRoad="68" connectingRoad="40" contactPoint="start">
+      <laneLink from="10000060" to="10000086" />
+    </connection>
+  </junction>
+  <junction id="30000009">
+    <outline>
+      <cornerGlobal x="3.731153733e+01" y="5.634892826e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731159552e+01" y="5.634893121e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731158549e+01" y="5.634900468e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731158088e+01" y="5.634903545e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731157709e+01" y="5.634904800e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731157022e+01" y="5.634905668e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731155602e+01" y="5.634906813e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731153123e+01" y="5.634907777e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731150506e+01" y="5.634908112e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731146406e+01" y="5.634908032e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731144944e+01" y="5.634923283e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731138972e+01" y="5.634923097e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731134165e+01" y="5.634923161e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731135165e+01" y="5.634906393e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731135143e+01" y="5.634906302e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731131111e+01" y="5.634905042e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731122268e+01" y="5.634902993e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731121404e+01" y="5.634899884e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731121630e+01" y="5.634899930e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731121614e+01" y="5.634899852e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731129772e+01" y="5.634901552e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731135372e+01" y="5.634902936e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731135479e+01" y="5.634901139e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731141184e+01" y="5.634901337e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731147038e+01" y="5.634901435e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731146729e+01" y="5.634904654e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731149511e+01" y="5.634904769e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731151850e+01" y="5.634904209e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731152653e+01" y="5.634903256e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731152797e+01" y="5.634902235e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731153013e+01" y="5.634901001e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731153733e+01" y="5.634892826e+01" z="0.000000000e+00" />
+    </outline>
+    <connection id="0" incomingRoad="36" connectingRoad="37" contactPoint="start">
+      <laneLink from="10000073" to="10000075" />
+      <laneLink from="10000082" to="10000081" />
+    </connection>
+    <connection id="1" incomingRoad="36" connectingRoad="73" contactPoint="start">
+      <laneLink from="10000082" to="10000164" />
+    </connection>
+    <connection id="2" incomingRoad="53" connectingRoad="15" contactPoint="start">
+      <laneLink from="10000119" to="10000030" />
+      <laneLink from="10000120" to="10000030" />
+    </connection>
+  </junction>
+  <junction id="30000010">
+    <outline>
+      <cornerGlobal x="3.731313112e+01" y="5.634917867e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731308520e+01" y="5.634917891e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731302653e+01" y="5.634917859e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731302171e+01" y="5.634923940e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731301108e+01" y="5.634923950e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731301088e+01" y="5.634926618e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731301959e+01" y="5.634926617e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731301932e+01" y="5.634926960e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731296737e+01" y="5.634926980e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731296498e+01" y="5.634929863e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731301699e+01" y="5.634929899e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731301414e+01" y="5.634933497e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731307052e+01" y="5.634933783e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731307789e+01" y="5.634929297e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731307950e+01" y="5.634929264e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731307909e+01" y="5.634930073e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731307699e+01" y="5.634931881e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731307553e+01" y="5.634933997e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731311853e+01" y="5.634934558e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731312523e+01" y="5.634932682e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731312825e+01" y="5.634930294e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731312910e+01" y="5.634926601e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731313870e+01" y="5.634926618e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731316742e+01" y="5.634926595e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731316900e+01" y="5.634923802e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731315302e+01" y="5.634923739e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731314674e+01" y="5.634923670e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731313645e+01" y="5.634923528e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731313102e+01" y="5.634922542e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731313112e+01" y="5.634917867e+01" z="0.000000000e+00" />
+    </outline>
+    <connection id="0" incomingRoad="55" connectingRoad="57" contactPoint="start">
+      <laneLink from="10000125" to="10000129" />
+    </connection>
+    <connection id="1" incomingRoad="63" connectingRoad="31" contactPoint="start">
+      <laneLink from="10000143" to="10000064" />
+    </connection>
+    <connection id="2" incomingRoad="40" connectingRoad="66" contactPoint="start">
+      <laneLink from="10000151" to="10000150" />
+    </connection>
+    <connection id="3" incomingRoad="67" connectingRoad="66" contactPoint="start">
+      <laneLink from="10000151" to="10000150" />
+    </connection>
+    <connection id="4" incomingRoad="55" connectingRoad="29" contactPoint="start">
+      <laneLink from="10000125" to="10000060" />
+    </connection>
+    <connection id="5" incomingRoad="40" connectingRoad="68" contactPoint="start">
+      <laneLink from="10000151" to="10000153" />
+    </connection>
+    <connection id="6" incomingRoad="67" connectingRoad="68" contactPoint="start">
+      <laneLink from="10000151" to="10000153" />
+    </connection>
+    <connection id="7" incomingRoad="55" connectingRoad="65" contactPoint="start">
+      <laneLink from="10000125" to="10000148" />
+    </connection>
+  </junction>
+  <junction id="30000011">
+    <outline>
+      <cornerGlobal x="3.731340813e+01" y="5.634846980e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731346693e+01" y="5.634847129e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731352064e+01" y="5.634847189e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731352017e+01" y="5.634849195e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731352589e+01" y="5.634850613e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731353377e+01" y="5.634851452e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731354532e+01" y="5.634851908e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731356351e+01" y="5.634852391e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731359441e+01" y="5.634852614e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731366872e+01" y="5.634852730e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731366667e+01" y="5.634855710e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731366553e+01" y="5.634858741e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731359383e+01" y="5.634858678e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731354528e+01" y="5.634858571e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731352334e+01" y="5.634858319e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731351466e+01" y="5.634858135e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731349496e+01" y="5.634894192e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731344142e+01" y="5.634894256e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731338052e+01" y="5.634894219e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731340813e+01" y="5.634846980e+01" z="0.000000000e+00" />
+    </outline>
+    <connection id="0" incomingRoad="47" connectingRoad="69" contactPoint="start">
+      <laneLink from="10000103" to="10000156" />
+      <laneLink from="10000110" to="10000157" />
+    </connection>
+    <connection id="1" incomingRoad="47" connectingRoad="70" contactPoint="start">
+      <laneLink from="10000103" to="10000158" />
+    </connection>
+    <connection id="2" incomingRoad="45" connectingRoad="58" contactPoint="start">
+      <laneLink from="10000097" to="10000132" />
+      <laneLink from="10000098" to="10000131" />
+    </connection>
+  </junction>
+  <junction id="30000012">
+    <outline>
+      <cornerGlobal x="3.731347889e+01" y="5.634813871e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731341887e+01" y="5.634813806e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731341794e+01" y="5.634814884e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731340967e+01" y="5.634841933e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731338802e+01" y="5.634841375e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731335156e+01" y="5.634840716e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731331218e+01" y="5.634840262e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731322942e+01" y="5.634839902e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731319432e+01" y="5.634839631e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731310940e+01" y="5.634839120e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731299022e+01" y="5.634837809e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731297908e+01" y="5.634841213e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731310190e+01" y="5.634842242e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731318852e+01" y="5.634842668e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731322546e+01" y="5.634842817e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731329530e+01" y="5.634843160e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731335145e+01" y="5.634843835e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731338324e+01" y="5.634844559e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731340174e+01" y="5.634845710e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731340813e+01" y="5.634846980e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731346693e+01" y="5.634847129e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731352064e+01" y="5.634847188e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731352905e+01" y="5.634815160e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731353060e+01" y="5.634813858e+01" z="0.000000000e+00" />
+      <cornerGlobal x="3.731347889e+01" y="5.634813871e+01" z="0.000000000e+00" />
+    </outline>
+    <connection id="0" incomingRoad="70" connectingRoad="51" contactPoint="start">
+      <laneLink from="10000156" to="10000115" />
+      <laneLink from="10000132" to="10000115" />
+      <laneLink from="10000157" to="10000116" />
+      <laneLink from="10000158" to="10000116" />
+      <laneLink from="10000131" to="10000116" />
+    </connection>
+    <connection id="1" incomingRoad="69" connectingRoad="51" contactPoint="start">
+      <laneLink from="10000156" to="10000115" />
+      <laneLink from="10000132" to="10000115" />
+      <laneLink from="10000157" to="10000116" />
+      <laneLink from="10000158" to="10000116" />
+      <laneLink from="10000131" to="10000116" />
+    </connection>
+    <connection id="2" incomingRoad="58" connectingRoad="51" contactPoint="start">
+      <laneLink from="10000156" to="10000115" />
+      <laneLink from="10000132" to="10000115" />
+      <laneLink from="10000157" to="10000116" />
+      <laneLink from="10000158" to="10000116" />
+      <laneLink from="10000131" to="10000116" />
+    </connection>
+    <connection id="3" incomingRoad="70" connectingRoad="59" contactPoint="start">
+      <laneLink from="10000157" to="10000134" />
+      <laneLink from="10000158" to="10000134" />
+      <laneLink from="10000131" to="10000134" />
+    </connection>
+    <connection id="4" incomingRoad="69" connectingRoad="59" contactPoint="start">
+      <laneLink from="10000157" to="10000134" />
+      <laneLink from="10000158" to="10000134" />
+      <laneLink from="10000131" to="10000134" />
+    </connection>
+    <connection id="5" incomingRoad="58" connectingRoad="59" contactPoint="start">
+      <laneLink from="10000157" to="10000134" />
+      <laneLink from="10000158" to="10000134" />
+      <laneLink from="10000131" to="10000134" />
+    </connection>
+  </junction>
+</OpenDRIVE>

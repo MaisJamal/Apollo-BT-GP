@@ -1,0 +1,18 @@
+{
+    "population_size": 20,
+    "max_generations": 50,
+    "elitism_percent": 10,
+    "crossover_percent": 40,
+    "mutation_percent": 60,
+    "mutation_mutation_percent": 30,
+    "mutation_addition_percent": 40,
+    "mutation_deletion_percent": 30,
+    "control_nodes_percent": 30,
+    "action_nodes_percent": 10,
+    "max_tree_depth": 6,
+    "GENES": "cdefghijklmnopqrstuvwxy",
+    "action_nodes": "XYZ",
+    "control_nodes": "&/"
+}
+
+
