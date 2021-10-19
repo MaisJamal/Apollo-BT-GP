@@ -48,22 +48,4 @@ to run scenarios manually by a python script:
 
 ![image alt text](docs/demo_guide/images/Apollo_3_5_software_architecture.png)
 
-## Installation
 
-* [Fork and then Clone Apollo's GitHub code](https://github.com/ApolloAuto/apollo)
-
-* [Build and Release using Docker](docs/howto/how_to_build_and_release.md) - This step is required
-
-* [Launch and Run Apollo](docs/howto/how_to_launch_Apollo.md)
-
-Congratulations! You have successfully built out Apollo without Hardware. If you do have a vehicle and hardware setup for a particular version, please pick the Quickstart guide most relevant to your setup:
-
-## Documents
-
-* [Technical Tutorial](docs/technical_tutorial/README.md): Everything you need to know about Apollo. Written as individual versions with links to every document related to that version.
-
-* [How To Guide](docs/howto/README.md): Brief technical solutions to common problems that developers face during the installation and use of the Apollo platform
-
-* [Specs](docs/specs/README.md): A Deep dive into Apollo's Hardware and Software specifications (only recommended for expert level developers that have successfully installed and launched Apollo)
-
-* [FAQs](docs/FAQs/README.md)
