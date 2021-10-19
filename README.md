@@ -1,6 +1,6 @@
 ## Apollo-BT-GP
 
-Apollo-BT-GP is an updated version of [Apollo 6.0](https://github.com/ApolloAuto/apollo). A behavior tree was integrated into the planning module to make the decision of overtaking dynamic obstacles with relativly high speeds. The behavior tree's tructure was learned using genetic programming algorithm.
+Apollo-BT-GP is an updated version of [Apollo 6.0](https://github.com/ApolloAuto/apollo). A behavior tree was integrated into the planning module to make the decision of overtaking dynamic obstacles with relatively high speeds. The behavior tree's structure was learned using genetic programming algorithm.
 
 ## Publications
 
@@ -14,7 +14,7 @@ $ git clone https://github.com/MaisJamal/Apollo-BT-GP.git
 $ cd Apollo-BT-GP
 Apollo-BT-GP$ bash docker/scripts/dev_start.sh
 Apollo-BT-GP$ bash docker/scripts/dev_into.sh
-root@in-dev-docker:/apollo# ./apollo.sh build_gpu            //just for the first time, and after you make changes to the code
+root@in-dev-docker:/apollo# ./apollo.sh build_gpu            //just for the first time, and after making changes to the code
 
 ```
 
