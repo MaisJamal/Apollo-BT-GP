@@ -40,13 +40,9 @@ By the same way, the map could be chosen automatically by adding:
 
 To run the scenarios of overtaking an obstacle automatically(choosing the map, turnning simcontrol, publishing the obstacles on perception module):
 1. turn on simcontrol automatically , by uncommenting the following line in /modules/dreamview/backend/sim_control/sim_control.cc
-```
-	Start();
-```
+	```Start();```
 2. choose the map automatically, by uncommenting the following line and define the needed map in /modules/dreamview/backend/hmi/hmi_worker.cc:
-```
-         ChangeMap("highway");
-```
+	```ChangeMap("highway");```
 3. change map_type in PythonAPI/script/publish_obstacles.py to match the map you have chosen in function ChangeMap()
 4.  ```$ ./scripts/bootstrap_simcontrol.sh ```
 
